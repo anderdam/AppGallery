@@ -2,47 +2,29 @@
 * text=auto
 *.java linguist-detectable=false
 *.cs linguist-detectable=true
-
-# Sources
 *.c linguist-detectable=false
 *.cc linguist-detectable=false
 *.cxx linguist-detectable=false
+*.cp linguist-detectable=false
 *.cpp linguist-detectable=false
 *.c++ linguist-detectable=false
 *.hpp linguist-detectable=false
 *.h linguist-detectable=false
 *.h++ linguist-detectable=false
 *.hh linguist-detectable=false
-
-# Compiled Object files
 *.slo linguist-detectable=false
 *.lo linguist-detectable=false
 *.o linguist-detectable=false
 *.obj linguist-detectable=false
-
-# Precompiled Headers
 *.gch linguist-detectable=false
 *.pch linguist-detectable=false
-
-# Compiled Dynamic libraries
 *.so linguist-detectable=false
 *.dylib linguist-detectable=false
 *.dll linguist-detectable=false
-
-# Compiled Static libraries
 *.lai linguist-detectable=false
 *.la linguist-detectable=false
 *.a linguist-detectable=false
 *.lib linguist-detectable=false
-
-# Executables
 *.exe linguist-detectable=false
 *.out linguist-detectable=false
 *.app linguist-detectable=false
-
-/.github export-ignore
-/bin export-ignore
-/tests export-ignore
-.editorconfig export-ignore
-.gitattributes export-ignore
-.gitignore export-ignore

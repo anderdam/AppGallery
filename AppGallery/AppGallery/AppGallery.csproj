@@ -16,11 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo03.xaml.cs">
-      <DependentUpon>Conteudo03.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo02.xaml.cs">
-      <DependentUpon>Conteudo02.xaml</DependentUpon>
+    <Compile Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo01.xaml.cs">
+      <DependentUpon>Conteudo01.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -29,6 +26,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo01.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo02.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Paginas\PaginaDeNavegacao\Conteudo03.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

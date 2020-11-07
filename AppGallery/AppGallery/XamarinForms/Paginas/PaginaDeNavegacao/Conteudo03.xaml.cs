@@ -10,11 +10,21 @@ using Xamarin.Forms.Xaml;
 namespace AppGallery.XamarinForms.Paginas.PaginaDeNavegacao
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Conteudo01 : ContentPage
+    public partial class Conteudo03 : ContentPage
     {
-        public Conteudo01()
+        public Conteudo03()
         {
             InitializeComponent();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
+
+        private void VoltarParaPaginaAnterior(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }

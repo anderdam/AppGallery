@@ -1,0 +1,14 @@
+D:\Dev\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.deps.json
+D:\Dev\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.dll
+D:\Dev\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\ref\AppGallery.dll
+D:\Dev\AppGallery\AppGallery\AppGallery\bin\Debug\netstandard2.0\AppGallery.pdb
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.csprojAssemblyReference.cache
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.AssemblyInfoInputs.cache
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.AssemblyInfo.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.csproj.CoreCompileInputs.cache
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.dll
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb

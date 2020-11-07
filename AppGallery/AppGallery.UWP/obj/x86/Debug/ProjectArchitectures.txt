@@ -1,0 +1,1 @@
+D:\Dev\AppGallery\AppGallery\AppGallery.UWP\AppGallery.UWP.csproj;x86

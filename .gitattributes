@@ -3,6 +3,7 @@
 *.java linguist-detectable=false
 *.cs linguist-detectable=true
 *.c linguist-detectable=false
+*.s linguist-detectable=false
 *.cc linguist-detectable=false
 *.cxx linguist-detectable=false
 *.cp linguist-detectable=false

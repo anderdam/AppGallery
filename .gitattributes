@@ -3,7 +3,6 @@
 *.java linguist-detectable=false
 *.cs linguist-detectable=true
 
-
 # Sources
 *.c linguist-detectable=false
 *.cc linguist-detectable=false
@@ -16,71 +15,30 @@
 *.hh linguist-detectable=false
 
 # Compiled Object files
-*.slo   binary
-*.lo    binary
-*.o     binary
-*.obj   binary
+*.slo linguist-detectable=false
+*.lo linguist-detectable=false
+*.o linguist-detectable=false
+*.obj linguist-detectable=false
 
 # Precompiled Headers
-*.gch   binary
-*.pch   binary
+*.gch linguist-detectable=false
+*.pch linguist-detectable=false
 
 # Compiled Dynamic libraries
-*.so    binary
-*.dylib binary
-*.dll   binary
+*.so linguist-detectable=false
+*.dylib linguist-detectable=false
+*.dll linguist-detectable=false
 
 # Compiled Static libraries
-*.lai   binary
-*.la    binary
-*.a     binary
-*.lib   binary
+*.lai linguist-detectable=false
+*.la linguist-detectable=false
+*.a linguist-detectable=false
+*.lib linguist-detectable=false
 
 # Executables
-*.exe   binary
-*.out   binary
-*.app   binary
-
-*.exe   binary
-*.out   binary
-*.app   binary
-
-# Sources
-*.c     text diff=c
-*.cc    text diff=cpp
-*.cxx   text diff=cpp
-*.cpp   text diff=cpp
-*.c++   text diff=cpp
-*.hpp   text diff=cpp
-*.h     text diff=c
-*.h++   text diff=cpp
-*.hh    text diff=cpp
-
-# Compiled Object files
-*.slo   binary
-*.lo    binary
-*.o     binary
-*.obj   binary
-
-# Precompiled Headers
-*.gch   binary
-*.pch   binary
-
-# Compiled Dynamic libraries
-*.so    binary
-*.dylib binary
-*.dll   binary
-
-# Compiled Static libraries
-*.lai   binary
-*.la    binary
-*.a     binary
-*.lib   binary
-
-# Executables
-*.exe   binary
-*.out   binary
-*.app   binary
+*.exe linguist-detectable=false
+*.out linguist-detectable=false
+*.app linguist-detectable=false
 
 /.github export-ignore
 /bin export-ignore

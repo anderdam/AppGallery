@@ -5,10 +5,13 @@
              x:Class="AppGallery.XamarinForms.Paginas.PaginaDeNavegacao.Conteudo03">
     <ContentPage.Content>
         <StackLayout>
+            <Button Text="Inserir Página na Pilha" Clicked="InserirPaginaPilha" />
+            <Button Text="Remover Página na Pilha" Clicked="RemoverPaginaPilha" />
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Voltar" Clicked="VoltarParaPaginaAnterior" />
+            <Button Text="Voltar para o início" Clicked="VoltarParaInicio" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

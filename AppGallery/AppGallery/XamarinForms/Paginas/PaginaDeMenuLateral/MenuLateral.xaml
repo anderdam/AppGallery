@@ -7,9 +7,9 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout>
-                <Button Text="Página 01" />
-                <Button Text="Página 02" />
-                <Button Text="Página 03" />
+                <Button Text="Página 01" Clicked="AbrirPagina01" />
+                <Button Text="Página 02" Clicked="AbrirPagina02" />
+                <Button Text="Página 03" Clicked="AbrirPagina03" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

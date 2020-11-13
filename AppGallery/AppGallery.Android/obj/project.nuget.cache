@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XHo/WNrYvCe9xsdNuCX19psf2Jinzd8cOqFMpmV9XZhLClOcQyyAPLMQulINdbNsa7iFb5WjzlSU/5xjnAp5Sg==",
+  "dgSpecHash": "UWUlJVOieK8weBgZxsM3GOdzI3WTD0JzFJMQ18Aim3ys3sEwAI0aOKqdtN32gu8vaOhesEfGFxep5i0rC/HbZg==",
   "success": true,
   "projectFilePath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\ander\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
+    "C:\\Users\\ander\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],
   "logs": []
 }

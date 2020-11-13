@@ -5,8 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Página 01"
-                VerticalOptions="CenterAndExpand" 
+                VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Abrir Menu" Clicked="AbrirMenu" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

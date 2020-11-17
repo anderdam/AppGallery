@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Layouts.LayoutPilha.Pilha">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <StackLayout Padding="10"
+                         Orientation="Vertical"
+                         BackgroundColor="#707070"
+                         VerticalOptions="FillAndExpand">
+                <Label Text="Linha 1"
+                       BackgroundColor="White"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand" />
+                <Label Text="Linha 2"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Padding="10"
+                         Orientation="Horizontal"
+                         BackgroundColor="#A0A0A0">
+                <Label Text="Coluna 1"
+                       HorizontalOptions="CenterAndExpand" />
+                <Label Text="Coluna 2"
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

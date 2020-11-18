@@ -58,5 +58,17 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutPilha.Pilha();
             ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirGridLayout(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutGrid.Grade();
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirAbsolutLayout(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutAbsoluto.Absoluto();
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

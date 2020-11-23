@@ -9166,8 +9166,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ander\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\adapp\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
@@ -9176,16 +9176,16 @@
       "projectUniqueName": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
       "projectName": "AppGallery.UWP",
       "projectPath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
-      "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
       "outputPath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

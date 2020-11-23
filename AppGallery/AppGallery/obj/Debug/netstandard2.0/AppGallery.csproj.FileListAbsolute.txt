@@ -29,3 +29,8 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Pa
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeMenuLateral\MenuLateral.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutAbsoluto\Absoluto.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutFlexivel\Flexivel.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutGrid\Grade.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutPilha\Pilha.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutRelativo\Relativo.xaml.g.cs

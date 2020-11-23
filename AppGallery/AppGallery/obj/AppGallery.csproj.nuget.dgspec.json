@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj",
         "projectName": "AppGallery",
         "projectPath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\adapp\\.nuget\\packages\\",
         "outputPath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adapp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

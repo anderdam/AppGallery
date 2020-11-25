@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Layouts.LayoutBarraDeRolagem.BarraDeRolagem">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <ScrollView Orientation="Both" Scrolled="ScrollView_Scrolled">
+                <StackLayout Padding="10">
+                    <BoxView Color="Black" WidthRequest="500" HeightRequest="500"/>
+                    <Label x:Name="Posicao" Text="ScrollView 01" BackgroundColor="Black" TextColor="White" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </ScrollView>
+            <ScrollView Grid.Row="1" x:Name="BarraDeRolagemScroll">
+                <StackLayout Margin="20">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                            <BoxView Color="Black"/>
+                        </StackLayout>
+                    </ScrollView>
+                    <Button Text="Clique me" BackgroundColor="Black" TextColor="White" Clicked="RolarParaSegundaLabel"/>
+                    <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Casamentiss faiz malandris se pirulitá. Diuretics paradis num copo é motivis de denguis. Leite de capivaris, leite de mula manquis sem cabeça. Sapien in monti palavris qui num significa nadis i pareci latim. Viva Forevis aptent taciti sociosqu ad litora torquent. In elementis mé pra quem é amistosis quis leo. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Interagi no mé, cursus quis, vehicula ac nisi. Atirei o pau no gatis, per gatis num morreus. Detraxit consequat et quo num tendi nada. A ordem dos tratores não altera o pão duris. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!"
+                       Padding="20"
+                       BackgroundColor="Black"
+                       TextColor="White"/>
+                    <Label x:Name="SegundaLabel" Text="Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Casamentiss faiz malandris se pirulitá. Diuretics paradis num copo é motivis de denguis. Leite de capivaris, leite de mula manquis sem cabeça. Sapien in monti palavris qui num significa nadis i pareci latim. Viva Forevis aptent taciti sociosqu ad litora torquent. In elementis mé pra quem é amistosis quis leo. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Interagi no mé, cursus quis, vehicula ac nisi. Atirei o pau no gatis, per gatis num morreus. Detraxit consequat et quo num tendi nada. A ordem dos tratores não altera o pão duris. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!"
+                       Padding="20"
+                       BackgroundColor="Black"
+                       TextColor="White"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

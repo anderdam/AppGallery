@@ -34,3 +34,7 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\La
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutGrid\Grade.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutPilha\Pilha.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutRelativo\Relativo.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutBarraDeRolagem\BarraDeRolagem.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\CardHorizontal.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\Controle.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\CardDiretor.xaml.g.cs

@@ -82,5 +82,23 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutRelativo.Relativo();
             ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirScrollView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutBarraDeRolagem.BarraDeRolagem();
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirContentView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutControle.Controle();
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirFrame(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutQuadrado.Quadrado();
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

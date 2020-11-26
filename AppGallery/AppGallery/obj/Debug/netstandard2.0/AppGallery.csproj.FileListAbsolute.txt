@@ -38,3 +38,4 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\La
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\CardHorizontal.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\Controle.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutControle\CardDiretor.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Layouts\LayoutQuadrado\Quadrado.xaml.g.cs

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.Rotulo.Rotulo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" BackgroundColor="LightGray">
+                <!--Template Base
+                <Label Text="Base" TextColor="Black"  />
+                <Label Text="Texto 01" />
+                <Label Text="Texto 02" />-->
+                
+                <Label Text="FormattedText" TextColor="Black"  />
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Texto " TextColor="Green" FontSize="8"/>
+                            <Span Text="01" TextColor="Red" FontSize="24"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                <Label Text="TextType" TextColor="Black"  />
+                <Label Text="Texto &lt;strong&gt;01&lt;/strong&gt;" TextType="Html"/>
+                <Label TextType="Html">
+                    <![CDATA[
+                    Texto <strong><i>02</i></strong>
+                ]]>
+                </Label>
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                <Label Text="TextColor" TextColor="Black"  />
+                <Label Text="Texto 01" TextColor="#AC081B"/>
+                <Label Text="Texto 02" TextColor="#7FAC081B"/>
+                
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="TextDecorations" TextColor="Black"  />
+                <Label Text="Texto 01" TextDecorations="Strikethrough"/>
+                <Label Text="Texto 02" TextDecorations="Underline" TextColor="Blue"/>
+
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="CharacterSpacing" TextColor="Black"  />
+                <Label Text="Texto 01" CharacterSpacing="-2"/>
+                <Label Text="Texto 02" CharacterSpacing="10"/>
+
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="Base" TextColor="Black"  />
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent." 
+                       MaxLines="3"/>
+
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="LineBreakMode" TextColor="Black"/>
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="WordWrap"
+                       TextColor="Blue"/>          
+                
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="NoWrap"
+                       TextColor="Green"/>
+                
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="CharacterWrap"
+                       TextColor="Red"/>
+                
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="HeadTruncation"
+                       TextColor="Blue"/>
+
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="MiddleTruncation"
+                       TextColor="Green"/>
+                
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent."
+                       LineBreakMode="TailTruncation"
+                       TextColor="Red"/>
+
+                </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

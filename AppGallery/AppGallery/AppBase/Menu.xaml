@@ -7,6 +7,7 @@
         <ContentPage Title="Menu">
             <ScrollView>
                 <StackLayout>
+                    <!--Tipos de Páginas-->
                     <Label Text="Páginas" />
                     <Button Text="ContentPage" Clicked="AbrirContentPage" />
                     <Button Text="NavigationPage" Clicked="AbrirNavigationPage" />
@@ -14,7 +15,7 @@
                     <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
                     <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage" />
                     <Button Text="Modal" Clicked="AbrirPaginaModal" />
-
+                    <!--Tipos de Layouts-->
                     <Label Text="Layouts" />
                     <Button Text="StackLayout" Clicked="AbrirStackLayout" />
                     <Button Text="GridLayout" Clicked="AbrirGridLayout" />
@@ -24,6 +25,10 @@
                     <Button Text="ScrollView" Clicked="AbrirScrollView" />
                     <Button Text="ContentView" Clicked="AbrirContentView" />
                     <Button Text="Frame" Clicked="AbrirFrame" />
+                    <!--Tipos de Controles-->
+                    <Label Text="Controles" />
+                    <Button Text="BoxView" Clicked="AbrirBoxView" />
+                    <Button Text="Label" Clicked="AbrirLabel" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

@@ -174,4 +174,13 @@
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\paper-plane48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\paper-plane48x48%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\paper-plane48x48%403x.png" />
+  </ItemGroup>
 </Project>

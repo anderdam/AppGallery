@@ -510,3 +510,9 @@ D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\lp\33\jl\files.cach
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\lp\34\jl\files.cache
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\lp\38\jl\files.cache
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\lp\39\jl\files.cache
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-hdpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-ldpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-mdpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xhdpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxhdpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxxhdpi\paperplane48x48.png

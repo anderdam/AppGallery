@@ -8,8 +8,22 @@
                 <!--Template Base
                 <Label Text="Base" TextColor="Black"  />
                 <Label Text="Texto 01" />
-                <Label Text="Texto 02" />-->
-                
+                <Label Text="Texto 02" />
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                -->
+
+                <Label Text="FontFamily, FontSize e FontAttributes" TextColor="Black"  />
+                <Label Text="Texto 01" FontFamily="sans-serif-condensed" FontSize="24" FontAttributes="Bold"/>
+                <Label Text="Texto 02" />
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
+                <Label Text="HorizontalTextAllign e VerticalTextAllign" TextColor="Black"  />
+                <Label Text="Texto 01" BackgroundColor="Black" TextColor="White" HorizontalTextAlignment="Center"
+                       HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+                <Label Text="Texto 02" BackgroundColor="Black" TextColor="White" VerticalTextAlignment="Center"
+                       HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+
                 <Label Text="FormattedText" TextColor="Black"  />
                 <Label>
                     <Label.FormattedText>
@@ -18,9 +32,9 @@
                             <Span Text="01" TextColor="Red" FontSize="24"/>
                         </FormattedString>
                     </Label.FormattedText>
-                </Label>
-                
+                </Label>                
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                
                 <Label Text="TextType" TextColor="Black"  />
                 <Label Text="Texto &lt;strong&gt;01&lt;/strong&gt;" TextType="Html"/>
                 <Label TextType="Html">
@@ -29,28 +43,36 @@
                 ]]>
                 </Label>
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                
                 <Label Text="TextColor" TextColor="Black"  />
                 <Label Text="Texto 01" TextColor="#AC081B"/>
-                <Label Text="Texto 02" TextColor="#7FAC081B"/>
-                
+                <Label Text="Texto 02" TextColor="#7FAC081B"/>                
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
-
+                
                 <Label Text="TextDecorations" TextColor="Black"  />
                 <Label Text="Texto 01" TextDecorations="Strikethrough"/>
                 <Label Text="Texto 02" TextDecorations="Underline" TextColor="Blue"/>
-
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
 
                 <Label Text="CharacterSpacing" TextColor="Black"  />
                 <Label Text="Texto 01" CharacterSpacing="-2"/>
                 <Label Text="Texto 02" CharacterSpacing="10"/>
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>                
 
+                <Label Text="LineHeight" TextColor="Black"  />
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent." 
+                       MaxLines="3"
+                       LineHeight="1.5"/>
+                <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
+                
+                <Label Text="Base" TextColor="Black"  />
+                <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent." 
+                       MaxLines="3"/>
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
 
                 <Label Text="Base" TextColor="Black"  />
                 <Label Text="Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Viva Forevis aptent taciti sociosqu ad litora torquent." 
                        MaxLines="3"/>
-
                 <BoxView BackgroundColor="Black" HeightRequest="2" HorizontalOptions="StartAndExpand"/>
 
                 <Label Text="LineBreakMode" TextColor="Black"/>

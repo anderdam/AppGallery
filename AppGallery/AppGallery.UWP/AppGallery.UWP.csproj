@@ -103,6 +103,20 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\icon_16.png" />
+    <Content Include="Assets\icon_20.png" />
+    <Content Include="Assets\icon_24.png" />
+    <Content Include="Assets\icon_256.png" />
+    <Content Include="Assets\icon_30.png" />
+    <Content Include="Assets\icon_32.png" />
+    <Content Include="Assets\icon_36.png" />
+    <Content Include="Assets\icon_40.png" />
+    <Content Include="Assets\icon_48.png" />
+    <Content Include="Assets\icon_60.png" />
+    <Content Include="Assets\icon_64.png" />
+    <Content Include="Assets\icon_72.png" />
+    <Content Include="Assets\icon_80.png" />
+    <Content Include="Assets\icon_96.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />

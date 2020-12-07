@@ -118,5 +118,17 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BotaoControle.Botao());
             ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirImageButton(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BotaoImagemControle.BotaoImagem());
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirImageControl(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ImagemControle.Imagem());
+            ((MasterDetailPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

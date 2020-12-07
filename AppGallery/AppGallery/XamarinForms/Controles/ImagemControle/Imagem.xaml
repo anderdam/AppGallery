@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.ImagemControle.Imagem">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!-- Imagens da internet -->
+                <Image Source="https://hdwallpaperim.com/wp-content/uploads/2017/08/25/462655-lake-mountains-trees-sky-Canada-Peyto_Lake-Banff_National_Park-blue.jpg" Aspect="AspectFill" />
+                
+                <Image Source="https://hdwallpaperim.com/wp-content/uploads/2017/08/25/462655-lake-mountains-trees-sky-Canada-Peyto_Lake-Banff_National_Park-blue.jpg" Aspect="AspectFit" />
+                
+                <Image Source="https://hdwallpaperim.com/wp-content/uploads/2017/08/25/462655-lake-mountains-trees-sky-Canada-Peyto_Lake-Banff_National_Park-blue.jpg" Aspect="Fill" />
+                
+                <!-- Arquivo -> Imagens dentro dos projetos especcíficos do SO -->
+                <Image Source="xamarin.png"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

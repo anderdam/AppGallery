@@ -516,3 +516,9 @@ D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-mdpi\p
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xhdpi\paperplane48x48.png
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxhdpi\paperplane48x48.png
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxxhdpi\paperplane48x48.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-hdpi\xamarin.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-ldpi\xamarin.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-mdpi\xamarin.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xhdpi\xamarin.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxhdpi\xamarin.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\90\res\drawable-xxxhdpi\xamarin.png

@@ -167,6 +167,20 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="logoXamarin16.png" />
+    <Content Include="logoXamarin20.png" />
+    <Content Include="logoXamarin24.png" />
+    <Content Include="logoXamarin256.png" />
+    <Content Include="logoXamarin30.png" />
+    <Content Include="logoXamarin32.png" />
+    <Content Include="logoXamarin36.png" />
+    <Content Include="logoXamarin40.png" />
+    <Content Include="logoXamarin48.png" />
+    <Content Include="logoXamarin60.png" />
+    <Content Include="logoXamarin64.png" />
+    <Content Include="logoXamarin72.png" />
+    <Content Include="logoXamarin80.png" />
+    <Content Include="logoXamarin96.png" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>

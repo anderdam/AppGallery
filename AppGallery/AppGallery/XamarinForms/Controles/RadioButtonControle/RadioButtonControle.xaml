@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.RadioButtonControle.RadioButtonControle"
+             Padding="10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IsChecked" />            
+            <RadioButton Content="C#" IsChecked="True" TextColor="Blue" FontFamily="sans-serif-thin"  />
+            <RadioButton Content="PHP" IsChecked="False" TextColor="Red" FontFamily="sans-serif-light"  />
+            <RadioButton Content="Java" IsChecked="false" TextColor="Green" />
+            
+            <Label Text="GroupName"/>
+            <RadioButton Content="JavaScript" GroupName="Linguagens Front" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="SASS" GroupName="Linguagens Front" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="HTML" GroupName="Linguagens Front" CheckedChanged="RadioButton_CheckedChanged"/>
+
+            <Label x:Name="lblInformativo"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

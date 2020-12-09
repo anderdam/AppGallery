@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.CampoDeEntradaMultilineControle.CampoDeEntradaMultiline">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--
+                <Label Text="Propriedades: " />
+                <Entry />
+                -->
+                
+                <Label Text="Propriedades: Text, TextColor" />
+                <Editor Text="Texto simples" TextColor="Blue"/>
+
+                <Label Text="Propriedades: Placeholder, PlaceholderColor" />
+                <Editor Placeholder="Digite o seu nome" PlaceholderColor="Red"/>
+
+                <Label Text="Propriedades: MaxLength, BackgroundColor" />
+                <Editor MaxLength="10" BackgroundColor="Gray" TextColor="LightBlue"/>
+
+                
+                <Label Text="Propriedades: CharacterSpacing " />
+                <Editor CharacterSpacing="5"/>
+
+                <Label Text="Propriedades: FontSize, FontFamily, FontAttributes " />
+                <Editor FontFamily="sans-serif-thin" FontSize="32" FontAttributes="Italic"/>
+                
+                <Label Text="Propriedades: IsSpellCheckEnabled, IsTextPredictionEnabled, ReturnType" />
+                <Editor IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" />
+
+                <Label Text="Propriedades: Keyboard, KeyboardFlags" />
+                <Editor Keyboard="Email">
+                    <Editor.Keyboard>
+                        <Keyboard x:FactoryMethod="Create">
+                            <x:Arguments>
+                                <KeyboardFlags>Suggestions, CapitalizeCharacter</KeyboardFlags>
+                            </x:Arguments>
+                        </Keyboard>
+                    </Editor.Keyboard>
+                </Editor>
+                               
+                
+                <Label Text="Propriedades: Focused, Unfocused, TextChanged, Completed " />
+                <Editor HeightRequest="200" Focused="Entry_Focused" Unfocused="Entry_Unfocused" 
+                       TextChanged="Entry_TextChanged" Completed="Entry_Completed"/>
+                <Label x:Name="lblFocus" Text="-"/>
+                <Label x:Name="lblUnfocus" Text="-" />
+                <Label x:Name="lblTextChange" Text="-" />
+                <Label x:Name="lblComplete" Text="-" />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

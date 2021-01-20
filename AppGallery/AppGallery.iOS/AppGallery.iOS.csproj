@@ -63,6 +63,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BaseUrl_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -81,8 +82,17 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1709-pre4" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre5" />
+    <PackageReference Include="NETStandard.Library">
+      <Version>2.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit">
+      <Version>1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit.Markup">
+      <Version>1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -194,5 +204,35 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\paper-plane48x48%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\about.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\blog.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contact.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\elements.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\main.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\services.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\single-blog.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spacedu.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\alarm.mp3" />
   </ItemGroup>
 </Project>

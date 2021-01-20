@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.DeslizanteControle.Deslizante"
+             Padding="10"
+             BackgroundColor="LightGray">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- The Xamarin.Forms Slider is a horizontal bar that can be manipulated by the user to select a double value from a continuous range.
+            Link for documentation: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/slider
+            
+            <Label Text="Propriedades: " />
+            <Slider />
+            -->
+            
+            <Label Text="Slider - Use a Slider for selecting from a range of continuous values." />
+            <Slider />
+
+            <Label Text="Propriedades: Minimum, Maximum, Value" />
+            <Slider BackgroundColor="Black" Minimum="0" Maximum="5" Value="3"/>
+
+            <Label Text="Propriedades: MinimumTrackColor, MaximumTrackColor, ThumbColor " />
+            <Slider MinimumTrackColor="Green" MaximumTrackColor="Green" ThumbColor="Green" />
+
+            <Label Text="Propriedades: ThumbImageSource " />
+            <Slider MinimumTrackColor="Blue" MaximumTrackColor="Blue" 
+                    ThumbColor="Blue" ThumbImageSource="paperPlane48x48.png" />
+
+            <Label Text="Eventos: ValueChanged, DragStarted, DragCompleted" />
+            <Slider MinimumTrackColor="DarkRed" MaximumTrackColor="DarkRed" 
+                    ValueChanged="Slider_ValueChanged"
+                    DragStarted="Slider_DragStarted"
+                    DragCompleted="Slider_DragCompleted"
+                    />
+            <Label x:Name="lblValueChanged" Text="-"/>
+            <Label x:Name="lblDragStarted" Text="-"/>
+            <Label x:Name="lblDragCompleted" Text="-"/>
+
+            <Label Text="Incremento por inteiro"/>
+            <Slider MinimumTrackColor="Black" MaximumTrackColor="Black"
+                    Minimum="0"
+                    Maximum="10"
+                    ValueChanged="Slider_ValueChanged_Step"/>
+            <Label x:Name="lblValueChangedStep" Text="-"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

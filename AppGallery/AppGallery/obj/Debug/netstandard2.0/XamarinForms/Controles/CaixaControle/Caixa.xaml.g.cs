@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CaixaControle.Caixa.xaml", "XamarinForms/Controles/CaixaControle/Caixa.xaml", typeof(global::AppGallery.XamarinForms.Controles.CaixaControle.Caixa))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CaixaControle.Caixa.xaml", "XamarinForms/Controles/CaixaControle/Caixa.xaml", typeof(global::AppGallery.XamarinForms.Listas.CaixaControle.Caixa))]
 
-namespace AppGallery.XamarinForms.Controles.CaixaControle {
+namespace AppGallery.XamarinForms.Listas.CaixaControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\CaixaControle\\Caixa.xaml")]

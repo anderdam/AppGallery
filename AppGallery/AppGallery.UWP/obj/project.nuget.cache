@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a+sp4A7EkQy46va/jd1Y5hHZvaoemsCHp+9x6Y7vruQxE1Tnx/GftwoqioY08RBFqjJWbpp32vSdqvQoHEYjfg==",
+  "dgSpecHash": "GpUUyBWUVwnNRUnqicvrtJIVjt3cby8LjYJeEbLVDHOtkmeOo5n3HV6DzsUkOgHd1mQg+M1NIsiiFCdDhYpBGQ==",
   "success": true,
   "projectFilePath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\adapp\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\microsoft.ui.xaml\\2.4.2\\microsoft.ui.xaml.2.4.2.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-arm.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
@@ -28,9 +28,15 @@
     "C:\\Users\\adapp\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.0-pre5\\xamarin.essentials.1.6.0-pre5.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1709-pre4\\xamarin.forms.5.0.0.1709-pre4.nupkg.sha512"
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.1\\xamarin.communitytoolkit.1.0.1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.0.1\\xamarin.communitytoolkit.markup.1.0.1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.1-preview1\\xamarin.essentials.1.6.1-preview1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
   ],
   "logs": []
 }

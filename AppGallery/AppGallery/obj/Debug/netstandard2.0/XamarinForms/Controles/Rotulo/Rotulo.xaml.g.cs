@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.Rotulo.Rotulo.xaml", "XamarinForms/Controles/Rotulo/Rotulo.xaml", typeof(global::AppGallery.XamarinForms.Controles.Rotulo.Rotulo))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.Rotulo.Rotulo.xaml", "XamarinForms/Controles/Rotulo/Rotulo.xaml", typeof(global::AppGallery.XamarinForms.Listas.Rotulo.Rotulo))]
 
-namespace AppGallery.XamarinForms.Controles.Rotulo {
+namespace AppGallery.XamarinForms.Listas.Rotulo {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\Rotulo\\Rotulo.xaml")]

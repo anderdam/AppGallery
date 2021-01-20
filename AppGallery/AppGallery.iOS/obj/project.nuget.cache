@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "C1ZTBeh+LDEhxnIqHx8dmSWmd6c19s0JWwLEMdbxM9GNzkv0oPDASz3GUiUmaSOTiXkPF4vnF/eb9HX8i1EPoQ==",
+  "dgSpecHash": "Aa5dfCaIivNSUEJad1sk3yzwm5KEnvq8QeJ2AvSdRnJTIZiORD9+CprUON9CR+UjHT/kdjA8/EgXQ64TMsJ1ww==",
   "success": true,
   "projectFilePath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adapp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.0-pre5\\xamarin.essentials.1.6.0-pre5.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1709-pre4\\xamarin.forms.5.0.0.1709-pre4.nupkg.sha512"
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.1\\xamarin.communitytoolkit.1.0.1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.0.1\\xamarin.communitytoolkit.markup.1.0.1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.1-preview1\\xamarin.essentials.1.6.1-preview1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
   ],
   "logs": []
 }

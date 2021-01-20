@@ -92,6 +92,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BaseUrl_UWP.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -103,6 +104,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="alarm.mp3" />
     <Content Include="Assets\icon_16.png" />
     <Content Include="Assets\icon_20.png" />
     <Content Include="Assets\icon_24.png" />
@@ -182,6 +184,15 @@
     <Content Include="logoXamarin80.png" />
     <Content Include="logoXamarin96.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Site\about.html" />
+    <Content Include="Site\blog.html" />
+    <Content Include="Site\contact.html" />
+    <Content Include="Site\elements.html" />
+    <Content Include="Site\index.html" />
+    <Content Include="Site\main.html" />
+    <Content Include="Site\services.html" />
+    <Content Include="Site\single-blog.html" />
+    <Content Include="spacedu.mp4" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -194,9 +205,18 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1709-pre4" />
+    <PackageReference Include="NETStandard.Library">
+      <Version>2.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit">
+      <Version>1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit.Markup">
+      <Version>1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.11" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre5" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppGallery\AppGallery.csproj">

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.CampoDeEntradaSimplesControle
+namespace AppGallery.XamarinForms.Listas.CampoDeEntradaSimplesControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CampoDeEntradaSimples : ContentPage

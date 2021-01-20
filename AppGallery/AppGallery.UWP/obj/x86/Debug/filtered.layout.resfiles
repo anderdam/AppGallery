@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+alarm.mp3
 Assets\icon_16.png
 Assets\icon_20.png
 Assets\icon_24.png
@@ -81,3 +82,12 @@ logoXamarin72.png
 logoXamarin80.png
 logoXamarin96.png
 Properties\Default.rd.xml
+Site\about.html
+Site\blog.html
+Site\contact.html
+Site\elements.html
+Site\index.html
+Site\main.html
+Site\services.html
+Site\single-blog.html
+spacedu.mp4

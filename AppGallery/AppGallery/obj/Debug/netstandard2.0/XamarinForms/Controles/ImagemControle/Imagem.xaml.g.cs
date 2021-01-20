@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.ImagemControle.Imagem.xaml", "XamarinForms/Controles/ImagemControle/Imagem.xaml", typeof(global::AppGallery.XamarinForms.Controles.ImagemControle.Imagem))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.ImagemControle.Imagem.xaml", "XamarinForms/Controles/ImagemControle/Imagem.xaml", typeof(global::AppGallery.XamarinForms.Listas.ImagemControle.Imagem))]
 
-namespace AppGallery.XamarinForms.Controles.ImagemControle {
+namespace AppGallery.XamarinForms.Listas.ImagemControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\ImagemControle\\Imagem.xaml")]

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.InterruptorControle.Interruptor"
+             Padding="10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IsToggled, OnColor, ThumbColor" />
+            <Switch HorizontalOptions="Start" IsToggled="True" OnColor="Green" ThumbColor="GreenYellow"/>
+
+            <Label Text="Eventos: Toogle" />
+            <Switch HorizontalOptions="Start" Toggled="Switch_Toggled"/>
+            <Label Text="" x:Name="lblInformativo"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

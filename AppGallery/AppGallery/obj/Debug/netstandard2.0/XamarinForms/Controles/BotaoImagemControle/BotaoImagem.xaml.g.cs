@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.BotaoImagemControle.BotaoImagem.xaml", "XamarinForms/Controles/BotaoImagemControle/BotaoImagem.xaml", typeof(global::AppGallery.XamarinForms.Controles.BotaoImagemControle.BotaoImagem))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.BotaoImagemControle.BotaoImagem.xaml", "XamarinForms/Controles/BotaoImagemControle/BotaoImagem.xaml", typeof(global::AppGallery.XamarinForms.Listas.BotaoImagemControle.BotaoImagem))]
 
-namespace AppGallery.XamarinForms.Controles.BotaoImagemControle {
+namespace AppGallery.XamarinForms.Listas.BotaoImagemControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\BotaoImagemControle\\BotaoImagem.xaml")]

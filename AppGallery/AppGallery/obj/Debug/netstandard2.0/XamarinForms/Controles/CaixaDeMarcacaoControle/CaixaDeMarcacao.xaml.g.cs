@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CaixaDeMarcacaoControle.CaixaDeMarcacao.xaml", "XamarinForms/Controles/CaixaDeMarcacaoControle/CaixaDeMarcacao.xaml", typeof(global::AppGallery.XamarinForms.Controles.CaixaDeMarcacaoControle.CaixaDeMarcacao))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CaixaDeMarcacaoControle.CaixaDeMarcacao.xaml", "XamarinForms/Controles/CaixaDeMarcacaoControle/CaixaDeMarcacao.xaml", typeof(global::AppGallery.XamarinForms.Listas.CaixaDeMarcacaoControle.CaixaDeMarcacao))]
 
-namespace AppGallery.XamarinForms.Controles.CaixaDeMarcacaoControle {
+namespace AppGallery.XamarinForms.Listas.CaixaDeMarcacaoControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\CaixaDeMarcacaoControle\\CaixaDeMarcacao.xaml")]

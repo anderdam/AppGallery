@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.ProgressBarControle.ProgressBarControle">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Propriedades: Progress, ProgressColor" />
+            <ProgressBar Progress="0.5" ProgressColor="Green" />
+
+            <Label Text="Método: ProgressTo"/>
+            <ProgressBar x:Name="BarraDeProgresso" ProgressColor="Red" />
+            <Button Text="Processar(10%)" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

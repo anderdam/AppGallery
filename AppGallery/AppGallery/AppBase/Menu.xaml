@@ -35,7 +35,38 @@
                     <Button Text="Entry" Clicked="AbrirEntry" />                    
                     <Button Text="Editor" Clicked="AbrirEditor" />                    
                     <Button Text="Checkbox" Clicked="AbrirCheckbox" />
-                    <Button Text="RadioButton" Clicked="AbrirRadioButton" />                    
+                    <Button Text="RadioButton" Clicked="AbrirRadioButton" />
+                    <Button Text="Switch" Clicked="AbrirSwitch" />
+                    <Button Text="Stepper" Clicked="AbrirStepper" />
+                    <Button Text="Slider" Clicked="AbrirSlider" />                    
+                    <Button Text="Picker" Clicked="AbrirPicker" />                    
+                    <Button Text="DatePicker" Clicked="AbrirDatePicker" />                    
+                    <Button Text="TimePicker" Clicked="AbrirTimePicker" />
+                    <Button Text="ActivityIndicator" Clicked="AbrirActivityIndicator" />
+                    <Button Text="ProgressBar" Clicked="AbrirProgressBar" />
+                    <Button Text="SearchBar" Clicked="AbrirSearchBar" />
+                    <Button Text="RefreshView" Clicked="AbrirRefreshView" />
+                    <Button Text="SwipeView" Clicked="AbrirSwipeView" />                    
+                    <Button Text="WebView" Clicked="AbrirWebView" />
+                    <Button Text="MediaElement" Clicked="AbrirMediaElement" />
+                    <Button Text="Expander" Clicked="AbrirExpander" />                                                            
+                    <Button Text="CarouselView" Clicked="AbrirCarouselView" />
+                    <Button Text="IndicatorView" Clicked="AbrirIndicatorView" />
+                    <Button Text="ObservableCollection" Clicked="AbrirObservableCollection" />
+                    <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged" />
+                    <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector" />
+                    <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle" />
+                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle" />
+                    <Button Text="InheritStyle" Clicked="AbrirInheritStyle" />
+                    <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle" />
+                    <Button Text="StyleClass" Clicked="AbrirStyleClass" />
+                    <!--<Button Text="VSM" Clicked="Abrir" />
+                    <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign" />-->
+
+                    <Label Text="Listas"/>
+                    <Button Text="TableView" Clicked="AbrirTableView" />
+                    <Button Text="ListView" Clicked="AbrirListView" />
+                    <Button Text="CollectionView" Clicked="AbrirCollectionView" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

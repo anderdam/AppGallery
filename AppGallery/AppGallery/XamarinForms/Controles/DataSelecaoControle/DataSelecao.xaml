@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.DataSelecaoControle.DataSelecao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Propriedades: Date, MinimumDate, MaximumDate"/>
+            <DatePicker Date="12/11/2020" MinimumDate="12/04/2020" MaximumDate="12/31/2020"/>
+
+            <Label Text="Propriedades: Format, CharacterSpacing"/>
+            <DatePicker Format="dd/MM/yyyy" CharacterSpacing="5"
+                        Date="12/11/2020" MinimumDate="12/04/2020" MaximumDate="12/31/2020"/>
+
+            <Label Text="Propriedades: TextColor, FontFamily, FontSize, FontAttributes"/>
+            <DatePicker Format="dd/MM/yyyy" Date="12/11/2020" MinimumDate="12/04/2020" MaximumDate="12/31/2020"
+                        TextColor="Blue" FontFamily="sans-serif-light" FontSize="24" FontAttributes="Italic"/>
+
+            <Label Text="Eventos"/>
+            <DatePicker Format="dd/MM/yyyy" Date="12/11/2020" MinimumDate="12/04/2020" MaximumDate="12/31/2020"
+                        TextColor="Red" FontFamily="sans-serif-bold" FontSize="24" FontAttributes="Italic"
+                        DateSelected="DatePicker_DateSelected"
+                        />
+            <Label x:Name="lblInformativoAntigo" Text="-"/>
+            <Label x:Name="lblInformativoNovo" Text="-"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

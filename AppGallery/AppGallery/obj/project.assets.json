@@ -35,7 +35,19 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.0-pre5": {
+      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1874"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.6.1-preview1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -47,7 +59,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1709-pre4": {
+      "Xamarin.Forms/5.0.0.1874": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -258,10 +270,25 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.6.0-pre5": {
-      "sha512": "iEbd8Lxt/4fO/jIugh8Boh9brPif81oFDXryaow2xuVRI1b/9hbmgJrQtbN7RfI+m197dkTCAsaacgfiFP2U8A==",
+    "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "sha512": "y98ixX5EnJTm9TbQratLQs8tX74IZeDRFMsjxvvxF+78XCR+WeuJUgVATKQsQCPVspHb6Vfrh4mzMPueLEUisA==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.0-pre5",
+      "path": "xamarin.communitytoolkit.markup/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.Markup.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll",
+        "xamarin.communitytoolkit.markup.1.0.1.nupkg.sha512",
+        "xamarin.communitytoolkit.markup.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.6.1-preview1": {
+      "sha512": "5d31UJzgmGxP41i0FKQmVhEBRPALGds3HRBL3wJeQx/xGa9uDWoPIlS1jky+jL5TQ49+jkCg1IbDjb9Bo/C9NQ==",
+      "type": "package",
+      "path": "xamarin.essentials/1.6.1-preview1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -305,14 +332,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.0-pre5.nupkg.sha512",
+        "xamarin.essentials.1.6.1-preview1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.1709-pre4": {
-      "sha512": "4dIJ7Vs0SJl92vglE2/UkCL5FDDMYPx7ezyfz/3xUqZmNbzz74cpKeEcuy7eW43u/nfDxEX+nyxRwL4+dzHmQg==",
+    "Xamarin.Forms/5.0.0.1874": {
+      "sha512": "DddatpRCi4WvM4pBuDfRtKr/KkhFZoVE1KLNFwbOfltVUecqf78y8VaIDDU/iddfNfMSSzoqDBWpZgNj6lFyxA==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.1709-pre4",
+      "path": "xamarin.forms/5.0.0.1874",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -521,7 +548,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.1709-pre4.nupkg.sha512",
+        "xamarin.forms.5.0.0.1874.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -529,8 +556,9 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Essentials >= 1.6.0-pre5",
-      "Xamarin.Forms >= 5.0.0.1709-pre4"
+      "Xamarin.CommunityToolkit.Markup >= 1.0.1",
+      "Xamarin.Essentials >= 1.6.1-preview1",
+      "Xamarin.Forms >= 5.0.0.1874"
     ]
   },
   "packageFolders": {
@@ -583,13 +611,17 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Xamarin.CommunityToolkit.Markup": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.0-pre5, )"
+            "version": "[1.6.1-preview1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.1709-pre4, )"
+            "version": "[5.0.0.1874, )"
           }
         },
         "imports": [
@@ -602,7 +634,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

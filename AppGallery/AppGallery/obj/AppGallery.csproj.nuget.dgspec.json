@@ -50,13 +50,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Xamarin.CommunityToolkit.Markup": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.0-pre5, )"
+              "version": "[1.6.1-preview1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1709-pre4, )"
+              "version": "[5.0.0.1874, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

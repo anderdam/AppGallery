@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.BotaoImagemControle
+namespace AppGallery.XamarinForms.Listas.BotaoImagemControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BotaoImagem : ContentPage

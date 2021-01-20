@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.SelecaoControle.Selecao"
+             Padding="10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Propriedades: Items, Title, TitleColor" />
+            <Picker Title="Selecione a opção: " TitleColor="Blue">
+                <Picker.Items>
+                    <x:String>OPÇÃO 1</x:String>
+                    <x:String>OPÇÃO 2</x:String>
+                    <x:String>OPÇÃO 3</x:String>
+                    <x:String>OPÇÃO 4</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Propriedades: FontFamily, FontSize, FontAttributes" />
+            <Picker Title="Selecione a opção: " TitleColor="Green"
+                    FontFamily="sans-serif-thin" FontAttributes="Italic" FontSize="24">
+                <Picker.Items>
+                    <x:String>OPÇÃO 1</x:String>
+                    <x:String>OPÇÃO 2</x:String>
+                    <x:String>OPÇÃO 3</x:String>
+                    <x:String>OPÇÃO 4</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Eventos: SelectedIndexChanged" />
+            <Picker x:Name="PickerOpcao" Title="Selecione a opção: " TitleColor="DarkRed" 
+                    SelectedIndexChanged="Picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>OPÇÃO 1</x:String>
+                    <x:String>OPÇÃO 2</x:String>
+                    <x:String>OPÇÃO 3</x:String>
+                    <x:String>OPÇÃO 4</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label x:Name="lblInformativo" Text="-"/>
+
+            <Button Text="Limpar Opção" Clicked="LimparPickerOpcao"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

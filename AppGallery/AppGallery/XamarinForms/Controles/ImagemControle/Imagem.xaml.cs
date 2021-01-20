@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.ImagemControle
+namespace AppGallery.XamarinForms.Listas.ImagemControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Imagem : ContentPage

@@ -10,9 +10,9 @@
 
 [assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CampoDeEntradaMultilineControle.CampoDeEntradaM" +
     "ultiline.xaml", "XamarinForms/Controles/CampoDeEntradaMultilineControle/CampoDeEntradaMultiline.xa" +
-    "ml", typeof(global::AppGallery.XamarinForms.Controles.CampoDeEntradaMultilineControle.CampoDeEntradaMultiline))]
+    "ml", typeof(global::AppGallery.XamarinForms.Listas.CampoDeEntradaMultilineControle.CampoDeEntradaMultiline))]
 
-namespace AppGallery.XamarinForms.Controles.CampoDeEntradaMultilineControle {
+namespace AppGallery.XamarinForms.Listas.CampoDeEntradaMultilineControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\CampoDeEntradaMultilineControle\\CampoDeEntradaMultiline.xa" +

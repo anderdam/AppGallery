@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.CaixaDeMarcacaoControle
+namespace AppGallery.XamarinForms.Listas.CaixaDeMarcacaoControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CaixaDeMarcacao : ContentPage

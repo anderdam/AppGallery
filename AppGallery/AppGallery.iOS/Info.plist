@@ -34,5 +34,10 @@
 	<string>AppGallery</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/Icone.appiconset</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

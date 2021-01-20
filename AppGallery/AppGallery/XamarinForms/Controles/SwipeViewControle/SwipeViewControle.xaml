@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.SwipeViewControle.SwipeViewControle">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Propriedades: SwipeView, LeftItems, SwipeItems (SwipeBehaviorOnInvoked), SwipeItem" />
+            <Label Text="Eventos: SwipeItem, Invoked, SwipeStarted, SwipeChanging, SwipeEnded" />
+            <Label Text="Observação: " />
+
+            <SwipeView Margin="10" CloseRequested="CloseSwipeView" SwipeStarted="SwipeStarted" SwipeChanging="SwipeChanging" SwipeEnded="SwipeEnded"> 
+                <SwipeView.LeftItems>
+                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                        <SwipeItem Text="Detalhe" IconImageSource="paperPlane48x48.png" BackgroundColor="Aquamarine" Invoked="Detalhe" />
+                        <SwipeItem Text="Editar" BackgroundColor="LightYellow" Invoked="Editar"/>
+                    </SwipeItems>                    
+                </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                    <SwipeItems Mode="Reveal">
+                        <SwipeItemView>
+                            <StackLayout Padding="20, 15" BackgroundColor="LightSkyBlue" WidthRequest="100" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Visualizar" TextColor="White" HorizontalTextAlignment="Center"/>
+                                <Label Text="Produto" TextColor="White" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </SwipeItemView>
+                        <SwipeItem Text="Excluir" BackgroundColor="Red" Invoked="Excluir"/>                        
+                    </SwipeItems>
+                </SwipeView.RightItems>
+
+                <Frame BorderColor="Gray" >
+                    <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalTextAlignment="Center"/>
+                </Frame>                
+            </SwipeView>
+
+            <Label Text="-" x:Name="lblDetalhe"/>
+            <Label Text="-" x:Name="lblEditar"/>
+            <Label Text="-" x:Name="lblExcluir"/>
+            <Label Text="-" x:Name="lblStarted"/>
+            <Label Text="-" x:Name="lblChanging"/>
+            <Label Text="-" x:Name="lblEnded"/>
+            <Label Text="-" x:Name="lblClose"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

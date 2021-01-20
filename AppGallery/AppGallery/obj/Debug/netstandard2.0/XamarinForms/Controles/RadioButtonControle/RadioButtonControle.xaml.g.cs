@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.RadioButtonControle.RadioButtonControle.xaml", "XamarinForms/Controles/RadioButtonControle/RadioButtonControle.xaml", typeof(global::AppGallery.XamarinForms.Controles.RadioButtonControle.RadioButtonControle))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.RadioButtonControle.RadioButtonControle.xaml", "XamarinForms/Controles/RadioButtonControle/RadioButtonControle.xaml", typeof(global::AppGallery.XamarinForms.Listas.RadioButtonControle.RadioButtonControle))]
 
-namespace AppGallery.XamarinForms.Controles.RadioButtonControle {
+namespace AppGallery.XamarinForms.Listas.RadioButtonControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\RadioButtonControle\\RadioButtonControle.xaml")]

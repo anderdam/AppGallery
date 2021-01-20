@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.RadioButtonControle
+namespace AppGallery.XamarinForms.Listas.RadioButtonControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RadioButtonControle : ContentPage

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGallery.XamarinForms.Controles.CampoDeEntradaMultilineControle
+namespace AppGallery.XamarinForms.Listas.CampoDeEntradaMultilineControle
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CampoDeEntradaMultiline : ContentPage

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -103,56 +98,222 @@ namespace AppGallery.AppBase
 
         private void AbrirBoxView(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.CaixaControle.Caixa());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CaixaControle.Caixa());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirLabel(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.Rotulo.Rotulo());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.Rotulo.Rotulo());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirBotao(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BotaoControle.Botao());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.BotaoControle.Botao());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirImageButton(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BotaoImagemControle.BotaoImagem());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.BotaoImagemControle.BotaoImagem());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirImageControl(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ImagemControle.Imagem());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ImagemControle.Imagem());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirEntry(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.CampoDeEntradaSimplesControle.CampoDeEntradaSimples());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CampoDeEntradaSimplesControle.CampoDeEntradaSimples());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirEditor(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.CampoDeEntradaMultilineControle.CampoDeEntradaMultiline());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CampoDeEntradaMultilineControle.CampoDeEntradaMultiline());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirCheckbox(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.CaixaDeMarcacaoControle.CaixaDeMarcacao());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CaixaDeMarcacaoControle.CaixaDeMarcacao());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirRadioButton(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.RadioButtonControle.RadioButtonControle());
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.RadioButtonControle.RadioButtonControle());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirSwitch(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.InterruptorControle.Interruptor());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirStepper(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.PassadorControle.Passador());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSlider(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DeslizanteControle.Deslizante());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirPicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.SelecaoControle.Selecao());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDatePicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DataSelecaoControle.DataSelecao());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirTimePicker(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.TimePickerControle.TimePickerControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirActivityIndicator(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ActivityIndicatorControle.ActivityIndicatorControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirProgressBar(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ProgressBarControle.ProgressBarControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSearchBar(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.SearchBarControle.SearchBarControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirRefreshView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.RefreshViewControle.RefreshViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSwipeView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.SwipeViewControle.SwipeViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirWebView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.WebViewControle.WebViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirMediaElement(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.MediaElementControle.MediaElementControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirExpander(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ExpanderControle.ExpanderControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }        
+
+        private void AbrirCarouselView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CarouselViewControle.CarouselViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirIndicatorView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.IndicatorViewControle.IndicatorViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirObservableCollection(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ObservableCollectionControle.ObservableCollectionControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirINotifyPropertyChanged(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.INotifyPropertyChangedControle.INotifyPropertyChangedControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDataTemplateSelector(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DataTemplateSelectorControle.DataTemplateSelectorControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirExplicitStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ExplicitStyleControle.ExplicitStyleControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGlobalStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.GlobalStyleControle.GlobalStyleControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirInheritStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.InheritStyleControle.InheritStyleControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDynamicStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DynamicStyleControle.DynamicStyleControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirStyleClass(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.StyleClassControle.StyleClassControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        //LISTAS
+
+        private void AbrirTableView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new 
+                XamarinForms.Listas.TableViewControle.TableViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirListView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ListViewControle.ListViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirCollectionView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CollectionViewControle.CollectionViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
     }
 }

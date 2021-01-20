@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="AppGallery.XamarinForms.Listas.MediaElementControle.MediaElementControle">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGray">
+            <Label Text="MediaElement" />
+            <Label Text="Propiredades: " />
+            <Label Text="Métodos: " />
+            <Label Text="Eventos: " />
+            <Label Text="Observações: " />
+            
+            <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black"/>
+            <!--<MediaElement></MediaElement>-->
+            
+            
+            <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="DarkBlue"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

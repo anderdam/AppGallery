@@ -9,9 +9,9 @@
 //------------------------------------------------------------------------------
 
 [assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CampoDeEntradaSimplesControle.CampoDeEntradaSim" +
-    "ples.xaml", "XamarinForms/Controles/CampoDeEntradaSimplesControle/CampoDeEntradaSimples.xaml", typeof(global::AppGallery.XamarinForms.Controles.CampoDeEntradaSimplesControle.CampoDeEntradaSimples))]
+    "ples.xaml", "XamarinForms/Controles/CampoDeEntradaSimplesControle/CampoDeEntradaSimples.xaml", typeof(global::AppGallery.XamarinForms.Listas.CampoDeEntradaSimplesControle.CampoDeEntradaSimples))]
 
-namespace AppGallery.XamarinForms.Controles.CampoDeEntradaSimplesControle {
+namespace AppGallery.XamarinForms.Listas.CampoDeEntradaSimplesControle {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\CampoDeEntradaSimplesControle\\CampoDeEntradaSimples.xaml")]

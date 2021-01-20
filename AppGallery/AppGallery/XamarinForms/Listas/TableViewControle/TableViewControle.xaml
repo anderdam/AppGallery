@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.TableViewControle.TableViewControle"
+             Padding="1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Table View" />
+            <Label Text="Propriedades: " />
+            <Label Text="" />
+            <Label Text="" />
+            
+            <!-- TextCell, ImageCell, EntryCell, SwitchCell, ViewCell -->
+
+            <TableView BackgroundColor="AliceBlue"  HasUnevenRows="True">
+                <TableRoot>
+                    <TableSection Title="Dados 1">
+                        <TextCell Tapped="TextCell_Tapped" Text="Lorem ipsum dolor" TextColor="Black" 
+                                  Detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        <!--Tapped="Tocado"-->
+                        <ImageCell Text="Lorem ipsum dolor" TextColor="Black" 
+                                  Detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                  ImageSource="paperPlane48x48.png"/>                        
+                    </TableSection>
+                    <TableSection Title="Cadastro">
+                        <EntryCell Label="Nome: " Placeholder="Digite o nome" />
+                        <SwitchCell Text="Confirma os dados? " On="True"/>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Sexo" Padding="16, 0, 0, 0"
+                                       VerticalOptions="CenterAndExpand"/>
+                                <RadioButton Content="Masculino" HorizontalOptions="EndAndExpand"/>
+                                <RadioButton Content="Feminino" Padding="0,0,10,0" />
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Cancelar"  HorizontalOptions="CenterAndExpand"/>
+                                <Button Text="Salvar"  HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

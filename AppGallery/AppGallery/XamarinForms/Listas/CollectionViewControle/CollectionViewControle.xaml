@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.CollectionViewControle.CollectionViewControle"
+             Padding="10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="CollectionView" />
+            <Label Text="Propriedades: ItemSource, ItemTemplate, Header, Foot, EmptyView,, ItemsLayout(LinearItemsLayout, GridItemsLayout" />
+            <Label Text="Eventos: " />
+            <Label Text="Métodos: " />
+
+            <CollectionView x:Name="Colecao01" IsGrouped="True">
+                <CollectionView.EmptyView>
+                    <Label Text="Nenhum registro" TextColor="White" BackgroundColor="#FF9D9D" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                </CollectionView.EmptyView>
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding NomeCategoria}" TextColor="Red" Padding="10"/>
+                    </DataTemplate>
+                   
+                </CollectionView.GroupHeaderTemplate>
+                <CollectionView.Header>
+                    <Label Text="Cabeçalho - Maiores empresas de Fast-Food:" Padding="10" BackgroundColor="DeepSkyBlue" FontSize="Subtitle" FontAttributes="Bold"/>                    
+                </CollectionView.Header>
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Span="2" Orientation="Vertical" VerticalItemSpacing="1" HorizontalItemSpacing="1">
+                        
+                    </GridItemsLayout>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout BackgroundColor="Lavender">
+                            <Label Text="{Binding Nome}" TextColor="Black" Padding="2"/>
+                            <Label Text="{Binding QuantidadeDeFranquias}" TextColor="Gray" Padding="2"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.GroupFooterTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <BoxView HeightRequest="2" Color="Gray" HorizontalOptions="FillAndExpand"/>
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.GroupFooterTemplate>
+                
+                <CollectionView.Footer>
+                    <Label Text="Rodapé // @Adappsdev" Padding="10" BackgroundColor="DeepSkyBlue" FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -57,7 +57,7 @@ namespace AppGallery.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental" });
+                Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental", "MediaElement_Experimental" });
                 
                 Xamarin.Forms.Forms.Init(e);
 

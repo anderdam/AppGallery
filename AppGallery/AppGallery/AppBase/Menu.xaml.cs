@@ -232,12 +232,6 @@ namespace AppGallery.AppBase
         {
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ExpanderControle.ExpanderControle());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }        
-
-        private void AbrirCarouselView(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CarouselViewControle.CarouselViewControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
         private void AbrirIndicatorView(object sender, EventArgs e)
@@ -298,7 +292,7 @@ namespace AppGallery.AppBase
 
         private void AbrirTableView(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new 
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new
                 XamarinForms.Listas.TableViewControle.TableViewControle());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
@@ -315,5 +309,10 @@ namespace AppGallery.AppBase
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
+        private void AbrirCarouselView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CarouselViewControle.CarouselViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

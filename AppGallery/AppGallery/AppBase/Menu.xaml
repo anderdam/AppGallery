@@ -49,8 +49,7 @@
                     <Button Text="SwipeView" Clicked="AbrirSwipeView" />                    
                     <Button Text="WebView" Clicked="AbrirWebView" />
                     <Button Text="MediaElement" Clicked="AbrirMediaElement" />
-                    <Button Text="Expander" Clicked="AbrirExpander" />                                                            
-                    <Button Text="CarouselView" Clicked="AbrirCarouselView" />
+                    <Button Text="Expander" Clicked="AbrirExpander" />                 
                     <Button Text="IndicatorView" Clicked="AbrirIndicatorView" />
                     <Button Text="ObservableCollection" Clicked="AbrirObservableCollection" />
                     <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged" />
@@ -67,6 +66,7 @@
                     <Button Text="TableView" Clicked="AbrirTableView" />
                     <Button Text="ListView" Clicked="AbrirListView" />
                     <Button Text="CollectionView" Clicked="AbrirCollectionView" />
+                    <Button Text="CarouselView" Clicked="AbrirCarouselView" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

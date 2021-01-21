@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -30,7 +29,7 @@ namespace AppGallery.XamarinForms.Listas.ListViewControle
         {
             var Marca1 = new Marca()
             {
-                new Carro 
+                new Carro
                 {
                     Nome = "Carro 01",
                     Motorizacao = "1.0",
@@ -229,7 +228,7 @@ namespace AppGallery.XamarinForms.Listas.ListViewControle
 
         private void Lista01_Scrolled(object sender, ScrolledEventArgs e)
         {
-            lblScroll.Text = $"X: {e.ScrollX} e Y: {e.ScrollY} ";            
+            lblScroll.Text = $"X: {e.ScrollX} e Y: {e.ScrollY} ";
         }
 
         private void MoverParaMarca3(object sender, EventArgs e)
@@ -237,7 +236,7 @@ namespace AppGallery.XamarinForms.Listas.ListViewControle
             var marcas = (List<Marca>)Lista01.ItemsSource;
             Marca marca3 = marcas[2];
             var carro1 = marca3[0];
-            Lista01.ScrollTo(carro1, ScrollToPosition.Start, true); 
+            Lista01.ScrollTo(carro1, ScrollToPosition.Start, true);
         }
 
         private void Lista01_ItemSelected(object sender, SelectedItemChangedEventArgs e)

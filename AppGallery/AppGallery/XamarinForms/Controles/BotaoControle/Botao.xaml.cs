@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -29,7 +25,7 @@ namespace AppGallery.XamarinForms.Listas.BotaoControle
 
         private void Clicado(object sender, EventArgs e)
         {
-            LblClicado.Text = "Clicado";            
+            LblClicado.Text = "Clicado";
         }
     }
 }

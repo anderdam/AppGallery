@@ -4,9 +4,13 @@
              x:Class="AppGallery.XamarinForms.Listas.CarouselViewControle.CarouselViewControle">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="CarouselView"/>
+            <Label Text="Propriedades: "/>
+            <Label Text="Eventos: "/>
+            
+            <CarouselView>
+                                
+            </CarouselView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

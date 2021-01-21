@@ -13,7 +13,6 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Co
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaDeMarcacaoControle\CaixaDeMarcacao.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CampoDeEntradaMultilineControle\CampoDeEntradaMultiline.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CampoDeEntradaSimplesControle\CampoDeEntradaSimples.xaml.g.cs
-D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CarouselViewControle\CarouselViewControle.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DataSelecaoControle\DataSelecao.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DataTemplateSelectorControle\DataTemplateSelectorControle.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DeslizanteControle\Deslizante.xaml.g.cs
@@ -75,3 +74,4 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ListViewControle\ListViewControle.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\CollectionViewControle\CollectionViewControle.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\CarouselViewControle\CarouselViewControle.xaml.g.cs

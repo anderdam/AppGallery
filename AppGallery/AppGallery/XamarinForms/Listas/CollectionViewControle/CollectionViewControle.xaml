@@ -6,50 +6,102 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="CollectionView" />
-            <Label Text="Propriedades: ItemSource, ItemTemplate, Header, Foot, EmptyView,, ItemsLayout(LinearItemsLayout, GridItemsLayout" />
+            <Label Text="Propriedades: ItemSource, ItemTemplate, Header, Foot, EmptyView,, ItemsLayout(LinearItemsLayout, GridItemsLayout, RemainingItemsThreshold, ItemSizingStrategy" />
             <Label Text="Eventos: " />
-            <Label Text="Métodos: " />
+            <Label Text="Métodos: RemainingItemsThresholdReached (InfinityScroll)" />
 
-            <CollectionView x:Name="Colecao01" IsGrouped="True">
+            <Label Text="-"
+                   x:Name="lblSelecao"/>
+
+            <CollectionView x:Name="Colecao01" 
+                            IsGrouped="True" 
+                            RemainingItemsThreshold="4" 
+                            RemainingItemsThresholdReached="Colecao01_RemainingItemsThresholdReached"
+                            ItemSizingStrategy="MeasureAllItems"
+                            SelectionMode="Multiple"
+                            SelectionChanged="Colecao01_SelectionChanged">
+                
                 <CollectionView.EmptyView>
-                    <Label Text="Nenhum registro" TextColor="White" BackgroundColor="#FF9D9D" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                    <Label Text="Nenhum registro" 
+                           TextColor="White" 
+                           BackgroundColor="#FF9D9D" 
+                           FontSize="Medium" 
+                           FontAttributes="Bold" 
+                           HorizontalTextAlignment="Center" 
+                           VerticalTextAlignment="Center"/>                    
                 </CollectionView.EmptyView>
+                
                 <CollectionView.GroupHeaderTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding NomeCategoria}" TextColor="Red" Padding="10"/>
-                    </DataTemplate>
-                   
+                        <Label Text="{Binding NomeCategoria}" 
+                               TextColor="Red" 
+                               FontAttributes="Bold"
+                               BackgroundColor="#F2F2F2"
+                               Padding="10"/>
+                    </DataTemplate>                   
                 </CollectionView.GroupHeaderTemplate>
+                
                 <CollectionView.Header>
-                    <Label Text="Cabeçalho - Maiores empresas de Fast-Food:" Padding="10" BackgroundColor="DeepSkyBlue" FontSize="Subtitle" FontAttributes="Bold"/>                    
+                    <Label Text="Cabeçalho - Maiores empresas de Fast-Food:" 
+                           Padding="10" 
+                           BackgroundColor="DeepSkyBlue" 
+                           FontSize="Subtitle" 
+                           FontAttributes="Bold"/>                    
                 </CollectionView.Header>
 
                 <CollectionView.ItemsLayout>
-                    <GridItemsLayout Span="2" Orientation="Vertical" VerticalItemSpacing="1" HorizontalItemSpacing="1">
-                        
+                    <GridItemsLayout Span="1" 
+                                     Orientation="Vertical" 
+                                     VerticalItemSpacing="1" 
+                                     HorizontalItemSpacing="1">                        
                     </GridItemsLayout>
                 </CollectionView.ItemsLayout>
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout BackgroundColor="Lavender">
-                            <Label Text="{Binding Nome}" TextColor="Black" Padding="2"/>
-                            <Label Text="{Binding QuantidadeDeFranquias}" TextColor="Gray" Padding="2"/>
+                        <StackLayout Padding="2">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="Lavender"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Selected">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="Gray"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>                            
+                            
+                            <Label Text="{Binding Nome}" 
+                                   TextColor="Black"/>
+                            <Label Text="{Binding QuantidadeDeFranquias}" 
+                                   TextColor="Gray"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
+                
                 <CollectionView.GroupFooterTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal">
-                            <BoxView HeightRequest="2" Color="Gray" HorizontalOptions="FillAndExpand"/>
-
+                            <BoxView HeightRequest="2" 
+                                     Color="Gray" 
+                                     HorizontalOptions="FillAndExpand"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.GroupFooterTemplate>
                 
                 <CollectionView.Footer>
-                    <Label Text="Rodapé // @Adappsdev" Padding="10" BackgroundColor="DeepSkyBlue" FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label Text="Rodapé // @Adappsdev" 
+                           Padding="10" 
+                           BackgroundColor="DeepSkyBlue" 
+                           FontSize="Small" 
+                           FontAttributes="Bold" 
+                           HorizontalTextAlignment="Center"/>
                 </CollectionView.Footer>
+                
             </CollectionView>
         </StackLayout>
     </ContentPage.Content>

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Controles.CarouselViewControle.CarouselViewControle.xaml", "XamarinForms/Controles/CarouselViewControle/CarouselViewControle.xaml", typeof(global::AppGallery.XamarinForms.Listas.CarouselViewControle.CarouselViewControle))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Listas.CarouselViewControle.CarouselViewControle.xaml", "XamarinForms/Listas/CarouselViewControle/CarouselViewControle.xaml", typeof(global::AppGallery.XamarinForms.Listas.CarouselViewControle.CarouselViewControle))]
 
 namespace AppGallery.XamarinForms.Listas.CarouselViewControle {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Controles\\CarouselViewControle\\CarouselViewControle.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Listas\\CarouselViewControle\\CarouselViewControle.xaml")]
     public partial class CarouselViewControle : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

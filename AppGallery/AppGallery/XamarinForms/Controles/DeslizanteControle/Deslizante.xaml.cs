@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -30,7 +26,7 @@ namespace AppGallery.XamarinForms.Listas.DeslizanteControle
         private void Slider_DragCompleted(object sender, EventArgs e)
         {
             lblDragCompleted.Text = "Arrasto completo";
-        }        
+        }
         private void Slider_ValueChanged_Step(object sender, ValueChangedEventArgs e)
         {
             int steps = 1;

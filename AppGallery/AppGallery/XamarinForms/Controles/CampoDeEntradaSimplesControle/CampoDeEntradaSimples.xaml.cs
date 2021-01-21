@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -28,7 +24,7 @@ namespace AppGallery.XamarinForms.Listas.CampoDeEntradaSimplesControle
         }
 
         private void Entry_TextChanged(object sender, TextChangedEventArgs e)
-        {            
+        {
             lblTextChange.Text = e.NewTextValue + " - " + e.NewTextValue.Length;
         }
 

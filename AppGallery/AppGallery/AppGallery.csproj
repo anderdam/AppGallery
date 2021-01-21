@@ -56,7 +56,7 @@
     <EmbeddedResource Update="XamarinForms\Controles\CampoDeEntradaSimplesControle\CampoDeEntradaSimples.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\CarouselViewControle\CarouselViewControle.xaml">
+    <EmbeddedResource Update="XamarinForms\Listas\CarouselViewControle\CarouselViewControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Listas\CollectionViewControle\CollectionViewControle.xaml">

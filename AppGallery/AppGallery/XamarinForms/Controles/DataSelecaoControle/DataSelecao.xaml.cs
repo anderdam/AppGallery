@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,8 +14,8 @@ namespace AppGallery.XamarinForms.Listas.DataSelecaoControle
 
         private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
         {
-            lblInformativoAntigo.Text = $"Data antiga: {e.OldDate.ToString("dd/MM/yyyy")}";          
-            lblInformativoNovo.Text = $"Data nova: {e.NewDate.ToString("dd/MM/yyyy")}";          
+            lblInformativoAntigo.Text = $"Data antiga: {e.OldDate.ToString("dd/MM/yyyy")}";
+            lblInformativoNovo.Text = $"Data nova: {e.NewDate.ToString("dd/MM/yyyy")}";
         }
     }
 }

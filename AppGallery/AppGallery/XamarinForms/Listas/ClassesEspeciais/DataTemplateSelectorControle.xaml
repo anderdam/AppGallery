@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.ClassesEspeciais.DataTemplateSelectorControle"
+             xmlns:template="clr-namespace:AppGallery.XamarinForms.Listas.ClassesEspeciais">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--Layout Mercearia-->
+            <DataTemplate x:Key="MerceariaDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="#FFDCF1FF">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+            <!--Layout Feira-->
+            <DataTemplate x:Key="FeiraDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="#FFFFFCDC">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            
+            <!--Layout Açougue-->
+            <DataTemplate x:Key="AcougueDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="#faa1ac">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            
+            <!--Layout Bebidas-->
+            <DataTemplate x:Key="BebidasDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="#ffab78">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+            <!--Layout Higiene-->
+            <DataTemplate x:Key="HigieneDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="Lavender">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+            <!--Layout Higiene-->
+            <DataTemplate x:Key="UtilidadesDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10"
+                                         BackgroundColor="#87ff7a">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor} "></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+            <template:SetorDataTemplateSelector x:Key="SetorDataTemplateSelector"
+                                                MerceariaTemplate="{StaticResource MerceariaDataTemplate}"
+                                                FeiraTemplate="{StaticResource FeiraDataTemplate}"
+                                                AcougueTemplate="{StaticResource AcougueDataTemplate}"
+                                                BebidasTemplate="{StaticResource BebidasDataTemplate}"
+                                                HigieneTemplate="{StaticResource HigieneDataTemplate}"
+                                                UtilidadesTemplate="{StaticResource UtilidadesDataTemplate}"/>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <Label Text="DataTemplateSelector" Padding="10" />
+            <Label Text="Lista de compras" Padding="10" BackgroundColor="#F0706C" TextColor="White"
+                   FontAttributes="Bold" FontSize="16"/>
+
+            <ListView x:Name="List01" HasUnevenRows="True" ItemTemplate="{StaticResource SetorDataTemplateSelector}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Styles.DynamicStyleStyle.DynamicStyleStyle">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#e74c3c</Color>
+            <Style x:Key="ButtonStyle" TargetType="Button">                
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+
+            <Style x:Key="ButtonStyleDynamic" TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+        
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="DynamicStyle" />
+
+            <Grid>
+                <Entry x:Name="EntryCorHex" Placeholder="Digite uma cor hexadecimal" Grid.ColumnSpan="4" Grid.Column="0" Grid.Row="0"/>
+                <Button Text="Ok" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,10,0" Clicked="BtnChangeButtonColorStyle"/>
+            </Grid>            
+
+            <Grid>
+                <Button Text="Static" Grid.Column="0" Grid.Row="1" Style="{StaticResource ButtonStyle}"
+                        BackgroundColor="{StaticResource PrimaryColor}"/>
+                <Button Text="Dynamic" Grid.Column="1" Grid.Row="1" Style="{DynamicResource ButtonStyle}"
+                        BackgroundColor="{DynamicResource PrimaryColor}"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

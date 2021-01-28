@@ -396,7 +396,7 @@
           }
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -413,7 +413,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -425,7 +425,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -434,7 +434,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -457,13 +457,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -1024,7 +1038,7 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -1041,7 +1055,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -1053,7 +1067,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -1062,7 +1076,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -1085,13 +1099,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -1653,7 +1681,7 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -1670,7 +1698,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -1682,7 +1710,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -1691,7 +1719,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -1714,13 +1742,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -2279,7 +2321,7 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -2296,7 +2338,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -2308,7 +2350,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -2317,7 +2359,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -2340,13 +2382,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -2907,7 +2963,7 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -2924,7 +2980,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -2936,7 +2992,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -2945,7 +3001,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -2968,13 +3024,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -3536,7 +3606,7 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -3553,7 +3623,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -3565,7 +3635,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -3574,7 +3644,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -3597,13 +3667,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -4164,7 +4248,7 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -4181,7 +4265,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -4193,7 +4277,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -4202,7 +4286,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -4225,13 +4309,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -4793,7 +4891,7 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.0.1": {
+      "Xamarin.CommunityToolkit/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0",
@@ -4810,7 +4908,7 @@
           "build/Xamarin.CommunityToolkit.targets": {}
         }
       },
-      "Xamarin.CommunityToolkit.Markup/1.0.1": {
+      "Xamarin.CommunityToolkit.Markup/1.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "5.0.0.1874"
@@ -4822,7 +4920,7 @@
           "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview1": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
@@ -4831,7 +4929,7 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1874": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "dependencies": {
           "Microsoft.UI.Xaml": "2.4.3",
@@ -4854,13 +4952,27 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.1931"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "AppGallery/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.CommunityToolkit.Markup": "1.0.1",
-          "Xamarin.Essentials": "1.6.1-preview1",
-          "Xamarin.Forms": "5.0.0.1874"
+          "Xamarin.CommunityToolkit": "1.0.2",
+          "Xamarin.CommunityToolkit.Markup": "1.0.2",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931",
+          "Xamarin.Forms.Visual.Material": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/AppGallery.dll": {}
@@ -9541,10 +9653,10 @@
         "win2d.uwp.nuspec"
       ]
     },
-    "Xamarin.CommunityToolkit/1.0.1": {
-      "sha512": "Tn+hASKMbpHywJLGDJcmF/AywvPGEO8/iUR+zaETLqFDy1ZqI/07Ur5Mcd7tcMLKA8Ff7SbDCpasC5LnAwyJAw==",
+    "Xamarin.CommunityToolkit/1.0.2": {
+      "sha512": "P1vwT40rpeY66M1kpJyfO/yYuverdIuamN0w8FHgT4x+mcDf0G4tspCztMMYle1BSeisrtvOKToQMLDYfBz9uQ==",
       "type": "package",
-      "path": "xamarin.communitytoolkit/1.0.1",
+      "path": "xamarin.communitytoolkit/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9566,14 +9678,14 @@
         "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
         "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
         "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
-        "xamarin.communitytoolkit.1.0.1.nupkg.sha512",
+        "xamarin.communitytoolkit.1.0.2.nupkg.sha512",
         "xamarin.communitytoolkit.nuspec"
       ]
     },
-    "Xamarin.CommunityToolkit.Markup/1.0.1": {
-      "sha512": "y98ixX5EnJTm9TbQratLQs8tX74IZeDRFMsjxvvxF+78XCR+WeuJUgVATKQsQCPVspHb6Vfrh4mzMPueLEUisA==",
+    "Xamarin.CommunityToolkit.Markup/1.0.2": {
+      "sha512": "9FSyIk5I55CNPCKjy8faEJU9E5YuJykFYtr5UF6EKl6ZMM0CzxAihXaUbrXXx21enZTMHdo2vF1TFx/gMqyEsg==",
       "type": "package",
-      "path": "xamarin.communitytoolkit.markup/1.0.1",
+      "path": "xamarin.communitytoolkit.markup/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9581,14 +9693,14 @@
         "icon.png",
         "lib/netstandard1.0/Xamarin.CommunityToolkit.Markup.dll",
         "lib/netstandard2.0/Xamarin.CommunityToolkit.Markup.dll",
-        "xamarin.communitytoolkit.markup.1.0.1.nupkg.sha512",
+        "xamarin.communitytoolkit.markup.1.0.2.nupkg.sha512",
         "xamarin.communitytoolkit.markup.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.6.1-preview1": {
-      "sha512": "5d31UJzgmGxP41i0FKQmVhEBRPALGds3HRBL3wJeQx/xGa9uDWoPIlS1jky+jL5TQ49+jkCg1IbDjb9Bo/C9NQ==",
+    "Xamarin.Essentials/1.6.1": {
+      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1-preview1",
+      "path": "xamarin.essentials/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9632,14 +9744,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1-preview1.nupkg.sha512",
+        "xamarin.essentials.1.6.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.1874": {
-      "sha512": "DddatpRCi4WvM4pBuDfRtKr/KkhFZoVE1KLNFwbOfltVUecqf78y8VaIDDU/iddfNfMSSzoqDBWpZgNj6lFyxA==",
+    "Xamarin.Forms/5.0.0.1931": {
+      "sha512": "5xe9Oxtx2lHC0pinXGRLoUMEav3qxdtNemDF1UxCcxHcwv/Zcso2LhYw1LnemYhtESa6QGOD8dGM31A2pmteVg==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.1874",
+      "path": "xamarin.forms/5.0.0.1931",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9848,8 +9960,30 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.1874.nupkg.sha512",
+        "xamarin.forms.5.0.0.1931.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Visual.Material/5.0.0.1931": {
+      "sha512": "PqCKVLvreLJB6cT6hGJMyLWGvCubuwjgEMATCct1VqeAfMdTQOqnKBxJDVut2uSQ83w89gIWRwZguka4eorLQw==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.1931",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.1931.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
       ]
     },
     "AppGallery/1.0.0": {
@@ -9863,10 +9997,11 @@
       "AppGallery >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.11",
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.CommunityToolkit >= 1.0.1",
-      "Xamarin.CommunityToolkit.Markup >= 1.0.1",
-      "Xamarin.Essentials >= 1.6.1-preview1",
-      "Xamarin.Forms >= 5.0.0.1874"
+      "Xamarin.CommunityToolkit >= 1.0.2",
+      "Xamarin.CommunityToolkit.Markup >= 1.0.2",
+      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Forms >= 5.0.0.1931",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.1931"
     ]
   },
   "packageFolders": {
@@ -9923,19 +10058,23 @@
           },
           "Xamarin.CommunityToolkit": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
           },
           "Xamarin.CommunityToolkit.Markup": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1-preview1, )"
+            "version": "[1.6.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.1874, )"
+            "version": "[5.0.0.1931, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[5.0.0.1931, )"
           }
         },
         "imports": [

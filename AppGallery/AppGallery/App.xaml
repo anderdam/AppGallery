@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallery.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style x:Key="GlobalStyleButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="crimson"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

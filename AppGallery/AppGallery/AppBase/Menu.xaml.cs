@@ -232,61 +232,7 @@ namespace AppGallery.AppBase
         {
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ExpanderControle.ExpanderControle());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirIndicatorView(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.IndicatorViewControle.IndicatorViewControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirObservableCollection(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ObservableCollectionControle.ObservableCollectionControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirINotifyPropertyChanged(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.INotifyPropertyChangedControle.INotifyPropertyChangedControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirDataTemplateSelector(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DataTemplateSelectorControle.DataTemplateSelectorControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirExplicitStyle(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ExplicitStyleControle.ExplicitStyleControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirGlobalStyle(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.GlobalStyleControle.GlobalStyleControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirInheritStyle(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.InheritStyleControle.InheritStyleControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirDynamicStyle(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.DynamicStyleControle.DynamicStyleControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
-
-        private void AbrirStyleClass(object sender, EventArgs e)
-        {
-            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.StyleClassControle.StyleClassControle());
-            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
-        }
+        }        
 
         //LISTAS
 
@@ -312,6 +258,92 @@ namespace AppGallery.AppBase
         private void AbrirCarouselView(object sender, EventArgs e)
         {
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.CarouselViewControle.CarouselViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirIndicatorView(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.IndicatorViewControle.IndicatorViewControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirObservableCollection(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ClassesEspeciais.ObservableCollectionClass());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirINotifyPropertyChanged(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ClassesEspeciais.INotifyPropertyChangedControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDataTemplateSelector(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ClassesEspeciais.DataTemplateSelectorControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        //Estilos
+
+        private void AbrirExplicitStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.ExplicitStyleControle.ExplicitStyleControle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirImplicitStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.ImplicitStyleLayout.ImplicitStyleLayout());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGlobalStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.GlobalStyleStyle.GlobalStyleStyle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirInheritStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.InheritStyleStyle.InheritStyleStyle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDynamicStyle(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.DynamicStyleStyle.DynamicStyleStyle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirStyleClass(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.StyleClassStyle.StyleClassStyle());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirVSM(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.VSM.Vsm());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirMaterialDesignIO(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.MaterialDesign.MaterialDesignIO());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirCustomFontsPage(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.CustomFonts.CustomFonsPage());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirChangeThemePage(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.ChangeTheme.ChangeThemePage());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
     }

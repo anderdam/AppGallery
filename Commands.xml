@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<XmlCommands xsi:schemaLocation="https://extensiblemarkupextension.heydorn.dev https://extensiblemarkupextension.heydorn.dev/ExtensibleMarkupExtensionSchema.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://extensiblemarkupextension.heydorn.dev">
+  <Commands>
+    <!--	
+	variables:
+	$(SolutionDir), $(SolutionPath), $(SolutionName), $(UserOptionsPath), $(VisualStudioPath), $(ProjectDir), $(ProjectPath)
+	
+	icons:
+	PowershellFile, JSScript, ExecuteDDL, Git, Play, New, LogError, Log, Output, Open, StartWebSite, StartupApplication, SymlinkFile, Sync, ASPWebSite, PackageDeployment, AzureWebSites, CSDynamicWebSite, Home, IntellisenseLightBulb, VisualStudio, Windows, WindowsAzure, Console, Refresh, Settings
+	
+-->
+    <XmlCommand icon="Settings" buttonTitle="Setup new Commands" attachToProjectContextMenu="false" attachToToolbar="true" projectFilename="csproj">
+      <Commands>
+        <RunApplicationCommand workingDirectory="$(VisualStudioPath)" path="$(VisualStudioPath)" arguments="$(SolutionDir)Commands.xml /Edit" />
+      </Commands>
+    </XmlCommand>
+  </Commands>
+</XmlCommands>

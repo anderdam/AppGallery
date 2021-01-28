@@ -49,16 +49,7 @@
                     <Button Text="SwipeView" Clicked="AbrirSwipeView" />                    
                     <Button Text="WebView" Clicked="AbrirWebView" />
                     <Button Text="MediaElement" Clicked="AbrirMediaElement" />
-                    <Button Text="Expander" Clicked="AbrirExpander" />                 
-                    <Button Text="IndicatorView" Clicked="AbrirIndicatorView" />
-                    <Button Text="ObservableCollection" Clicked="AbrirObservableCollection" />
-                    <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged" />
-                    <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector" />
-                    <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle" />
-                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle" />
-                    <Button Text="InheritStyle" Clicked="AbrirInheritStyle" />
-                    <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle" />
-                    <Button Text="StyleClass" Clicked="AbrirStyleClass" />
+                    <Button Text="Expander" Clicked="AbrirExpander" />
                     <!--<Button Text="VSM" Clicked="Abrir" />
                     <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign" />-->
 
@@ -67,6 +58,22 @@
                     <Button Text="ListView" Clicked="AbrirListView" />
                     <Button Text="CollectionView" Clicked="AbrirCollectionView" />
                     <Button Text="CarouselView" Clicked="AbrirCarouselView" />
+                    <Button Text="IndicatorView" Clicked="AbrirIndicatorView" />
+                    <Button Text="ObservableCollection" Clicked="AbrirObservableCollection" />
+                    <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged" />
+                    <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector" />
+
+                    <Label Text="Estilos"/>
+                    <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle" />
+                    <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle" />
+                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle" />
+                    <Button Text="InheritStyle" Clicked="AbrirInheritStyle" />
+                    <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle" />
+                    <Button Text="StyleClass" Clicked="AbrirStyleClass" />
+                    <Button Text="VSM" Clicked="AbrirVSM" />
+                    <Button Text="Material Design IO" Clicked="AbrirMaterialDesignIO" />
+                    <Button Text="Custom Fonts" Clicked="AbrirCustomFontsPage" />
+                    <Button Text="Change Theme" Clicked="AbrirChangeThemePage" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

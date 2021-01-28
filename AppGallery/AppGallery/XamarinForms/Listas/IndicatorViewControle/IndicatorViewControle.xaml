@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.IndicatorViewControle.IndicatorViewControle">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IndicatorView" />
+            <Label Text="Propriedades: IndicatorsShape, IndicatorColor, IndicatorSize, SelectedIndicatorColor"/>
+            <Label Text="Eventos: " />
+            <Label Text="Métodos: " />
+
+            <CarouselView PeekAreaInsets="50" IndicatorView="Indicator01">
+                <CarouselView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Carro 01</x:String>
+                        <x:String>Carro 02</x:String>
+                        <x:String>Carro 03</x:String>
+                        <x:String>Carro 04</x:String>
+                        <x:String>Carro 05</x:String>                        
+                        <x:String>Carro 06</x:String>                        
+                    </x:Array>
+                </CarouselView.ItemsSource>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10">
+                            <Frame BorderColor="Gray">
+                                <Label Text="{Binding .}"/>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="Indicator01"
+                           Margin="0,0,0,10" 
+                           HorizontalOptions="Center"
+                           IndicatorColor="LightGray"
+                           IndicatorSize="1"
+                           SelectedIndicatorColor="DarkGray">
+
+                <IndicatorView.IndicatorTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="30" IsClippedToBounds="True">
+                            <Image Source="paperPlane48x48.png" WidthRequest="15"/>
+                        </Frame>
+                    </DataTemplate>
+                </IndicatorView.IndicatorTemplate>
+            </IndicatorView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

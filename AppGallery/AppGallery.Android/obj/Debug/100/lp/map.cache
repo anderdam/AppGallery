@@ -43,6 +43,7 @@ Xamarin.AndroidX.ViewPager
 Xamarin.AndroidX.ViewPager2
 Xamarin.CommunityToolkit
 Xamarin.Essentials
+Xamarin.Forms.Material
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Google.Android.Material
@@ -73,12 +74,12 @@ androidx.cardview.cardview
 androidx.appcompat.appcompat-resources
 androidx.appcompat.appcompat
 com.google.android.material.material
+androidx.lifecycle.lifecycle-livedata
 androidx.swiperefreshlayout.swiperefreshlayout
 androidx.slidingpanelayout.slidingpanelayout
 androidx.print.print
 androidx.media.media
 androidx.localbroadcastmanager.localbroadcastmanager
-androidx.lifecycle.lifecycle-livedata
 androidx.documentfile.documentfile
 androidx.legacy.legacy-support-core-utils
 androidx.asynclayoutinflater.asynclayoutinflater

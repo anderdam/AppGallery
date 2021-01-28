@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Styles.CustomFonts.CustomFonsPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Font" />
+
+            <Label Text="Fonte: Normal" FontSize="24" />
+            <Label Text="Fonte: Fira Code - Bold" FontFamily="FiraCode-Bold" FontSize="24" />
+            <Label Text="Fonte: Fira Code - Light" FontFamily="FiraLight" FontSize="24"/>
+            <Label Text="Fonte: Fira Code - Medium" FontFamily="FiraMedium" FontSize="24" />
+            <Label Text="Fonte: Fira Code - Regular" FontFamily="FiraRegular" FontSize="24" />
+            <Label Text="Fonte: Fira Code - SemiBold" FontFamily="FiraSemiBold" FontSize="24" />
+            <Label Text="Fonte: Fira Code - Variable" FontFamily="FiraVariable" FontSize="24" />
+
+            <Label Text="&#xf270;" FontSize="48" FontFamily="FontAwesome-Brands" TextColor="Orange"/>
+            <Label Text="&#xf368;" FontSize="48" FontFamily="FontAwesome-Brands" TextColor="Blue"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,7 +11,7 @@ namespace AppGallery.XamarinForms.Listas.CollectionViewControle
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CollectionViewControle : ContentPage
     {
-        private ObservableCollection<Categoria> categorias { get; set; }
+        private ObservableCollection<Categoria> Categorias { get; set; }
         public CollectionViewControle()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace AppGallery.XamarinForms.Listas.CollectionViewControle
 
         private ObservableCollection<Categoria> GetCategorias()
         {
-            categorias = new ObservableCollection<Categoria>();
+            Categorias = new ObservableCollection<Categoria>();
 
             var sanduiches = new Categoria()
             {
@@ -47,11 +47,11 @@ namespace AppGallery.XamarinForms.Listas.CollectionViewControle
             };
             pizzarias.NomeCategoria = "Pizzarias";
 
-            categorias.Add(sanduiches);
-            categorias.Add(restaurantes);
-            categorias.Add(pizzarias);
+            Categorias.Add(sanduiches);
+            Categorias.Add(restaurantes);
+            Categorias.Add(pizzarias);
 
-            return categorias;
+            return Categorias;
         }
 
         private void Colecao01_RemainingItemsThresholdReached(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace AppGallery.XamarinForms.Listas.CollectionViewControle
             };
             diversos.NomeCategoria = "Diversos";
 
-            categorias.Add(diversos);
+            Categorias.Add(diversos);
 
             Colecao01.RemainingItemsThreshold = -1;
         }

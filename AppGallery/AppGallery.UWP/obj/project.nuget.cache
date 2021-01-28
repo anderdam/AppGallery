@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GpUUyBWUVwnNRUnqicvrtJIVjt3cby8LjYJeEbLVDHOtkmeOo5n3HV6DzsUkOgHd1mQg+M1NIsiiFCdDhYpBGQ==",
+  "dgSpecHash": "ghnt+thdOTnZePqt/zeUmqyemGKUUJ8NSUsO82PrY9k5B6q9oPlS17UhYNLKAgf2PCkq9cgNInIJPx5ScA72/A==",
   "success": true,
   "projectFilePath": "D:\\Dev\\AppGallery\\AppGallery\\AppGallery.UWP\\AppGallery.UWP.csproj",
   "expectedPackageFiles": [
@@ -33,10 +33,11 @@
     "C:\\Users\\adapp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\adapp\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.1\\xamarin.communitytoolkit.1.0.1.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.0.1\\xamarin.communitytoolkit.markup.1.0.1.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.1-preview1\\xamarin.essentials.1.6.1-preview1.nupkg.sha512",
-    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.2\\xamarin.communitytoolkit.1.0.2.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.0.2\\xamarin.communitytoolkit.markup.1.0.2.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms\\5.0.0.1931\\xamarin.forms.5.0.0.1931.nupkg.sha512",
+    "C:\\Users\\adapp\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.1931\\xamarin.forms.visual.material.5.0.0.1931.nupkg.sha512"
   ],
   "logs": []
 }

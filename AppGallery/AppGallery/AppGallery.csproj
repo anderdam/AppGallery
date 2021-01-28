@@ -12,14 +12,41 @@
 
   <ItemGroup>
     <Compile Remove="XamarinForms\Layouts\NovaPasta\**" />
+    <Compile Remove="XamarinForms\Listas\ObservableCollectionControle\**" />
     <EmbeddedResource Remove="XamarinForms\Layouts\NovaPasta\**" />
+    <EmbeddedResource Remove="XamarinForms\Listas\ObservableCollectionControle\**" />
     <None Remove="XamarinForms\Layouts\NovaPasta\**" />
+    <None Remove="XamarinForms\Listas\ObservableCollectionControle\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.0.1" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview1" />
+    <None Remove="Resources\Fonts\FiraCode-Bold.ttf" />
+    <None Remove="Resources\Fonts\FiraCode-Light.ttf" />
+    <None Remove="Resources\Fonts\FiraCode-Medium.ttf" />
+    <None Remove="Resources\Fonts\FiraCode-Regular.ttf" />
+    <None Remove="Resources\Fonts\FiraCode-SemiBold.ttf" />
+    <None Remove="Resources\Fonts\FiraCode-VariableFont.ttf" />
+    <None Remove="Resources\Fonts\FontAwesome-Regular.otf" />
+    <None Remove="Resources\Fonts\FontAwesomeBrands-Regular.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-Light.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-Medium.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-Regular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FiraCode-VariableFont.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FontAwesome-Regular.otf" />
+    <EmbeddedResource Include="Resources\Fonts\FontAwesomeBrands-Regular.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.2" />
+    <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1931" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.1931" />
   </ItemGroup>
 
   <ItemGroup>
@@ -59,40 +86,31 @@
     <EmbeddedResource Update="XamarinForms\Listas\CarouselViewControle\CarouselViewControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Listas\ClassesEspeciais\DataTemplateSelectorControle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Listas\ClassesEspeciais\INotifyPropertyChangedControle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Listas\ClassesEspeciais\ObservableCollectionClass.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Listas\CollectionViewControle\CollectionViewControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\DataSelecaoControle\DataSelecao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\DataTemplateSelectorControle\DataTemplateSelectorControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\DeslizanteControle\Deslizante.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\DynamicStyleControle\DynamicStyleControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ExpanderControle\ExpanderControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\ExplicitStyleControle\ExplicitStyleControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\GlobalStyleControle\GlobalStyleControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ImagemControle\Imagem.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\IndicatorViewControle\IndicatorViewControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\InheritStyleControle\InheritStyleControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\INotifyPropertyChangedControle\INotifyPropertyChangedControle.xaml">
+    <EmbeddedResource Update="XamarinForms\Listas\IndicatorViewControle\IndicatorViewControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\InterruptorControle\Interruptor.xaml">
@@ -102,9 +120,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\MediaElementControle\MediaElementControle.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\ObservableCollectionControle\ObservableCollectionControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\PassadorControle\Passador.xaml">
@@ -128,7 +143,22 @@
     <EmbeddedResource Update="XamarinForms\Controles\SelecaoControle\Selecao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Controles\StyleClassControle\StyleClassControle.xaml">
+    <EmbeddedResource Update="XamarinForms\Styles\ChangeTheme\ChangeThemePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\ChangeTheme\DarkThemePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\ChangeTheme\LightThemePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\CustomFonts\CustomFonsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\DynamicStyleStyle\DynamicStyleStyle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\InheritStyleStyle\InheritStyleStyle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\SwipeViewControle\SwipeViewControle.xaml">
@@ -219,6 +249,24 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Paginas\PaginaDeNavegacao\PaginaInserida.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\ExplicitStyleControle\ExplicitStyleControle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\GlobalStyleStyle\GlobalStyleStyle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\ImplicitStyleLayout\ImplicitStyleLayout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\MaterialDesign\MaterialDesignIO.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\StyleClassStyle\StyleClassStyle.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Styles\VSM\vsm.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

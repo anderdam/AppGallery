@@ -1,15 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              x:Class="AppGallery.XamarinForms.Listas.CarouselViewControle.CarouselViewControle">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="CarouselView"/>
-            <Label Text="Propriedades: "/>
+            <Label Text="Propriedades: ItemSource, ItemTemplate, PeekAreaInsets, ItemsLayout, Position"/>
             <Label Text="Eventos: "/>
-            
-            <CarouselView>
-                                
+
+            <Label x:Name="LblPosition" />
+            <Label x:Name="LblItem" />
+            <Label x:Name="LblScroll" />
+
+            <CarouselView x:Name="Carousel01" PeekAreaInsets="50" 
+                          RemainingItemsThreshold="1"
+                          RemainingItemsThresholdReached="Carousel01_RemainingItemsThresholdReached"
+                          CurrentItem=""
+                          CurrentItemChanged="Carousel01_CurrentItemChanged"
+                          PositionChanged="Carousel01_PositionChanged"
+                          Scrolled="Carousel01_Scrolled">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10"
+                                     BackgroundColor="Lavender">
+                            <Frame BorderColor="Gray"
+                               Margin="4">
+                                <StackLayout>
+                                    <Label Text="{Binding Nome}" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Cargo}" TextColor="Gray" FontSize="12"/>
+                                    <Label Text="{Binding Descricao}" TextColor="Gray" FontSize="8"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>                        
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>                                
             </CarouselView>
         </StackLayout>
     </ContentPage.Content>

@@ -58,3 +58,6 @@ D:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhoneSimulator\Debug\AppGallery
 D:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhoneSimulator\Debug\AppGallery.iOS.csproj.CopyComplete
 D:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhoneSimulator\Debug\AppGallery.iOS.exe
 D:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhoneSimulator\Debug\AppGallery.iOS.pdb
+D:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Material.dll
+D:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Material.pdb
+D:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhoneSimulator\Debug\MaterialComponents.dll

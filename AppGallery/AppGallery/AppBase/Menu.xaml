@@ -74,6 +74,17 @@
                     <Button Text="Material Design IO" Clicked="AbrirMaterialDesignIO" />
                     <Button Text="Custom Fonts" Clicked="AbrirCustomFontsPage" />
                     <Button Text="Change Theme" Clicked="AbrirChangeThemePage" />
+                    <Button Text="Dark/Light Theme" Clicked="AbrirDarkLightPage" />
+
+                    <Label Text="Animações"/>
+                    <Button Text="Animation" Clicked="AbrirSimpleAnimationPage" />
+
+                    <Label Text="Gestos"/>
+                    <Button Text="Gestos" Clicked="AbrirGestos" />
+                    
+                    <Label Text="Classes Uteís"/>
+                    <Button Text="Alertas" Clicked="AbrirAlertas" />
+                    <Button Text="Conversores" Clicked="AbrirConversores" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

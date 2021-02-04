@@ -346,5 +346,35 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.ChangeTheme.ChangeThemePage());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirDarkLightPage(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Styles.DarkLightTheme.DarkLightPage());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSimpleAnimationPage(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Animations.SimpleAnimation.SimpleAnimationPage());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGestos(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Gestos.Gestos());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirAlertas(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.Alerta.Alerta());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirConversores(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.Conversores.Conversores());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

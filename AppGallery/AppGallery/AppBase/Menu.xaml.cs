@@ -376,5 +376,11 @@ namespace AppGallery.AppBase
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.Conversores.Conversores());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirMessageCenterClass(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.MessageCenter.MessageCenterClass());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
     }
 }

@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGallery.XamarinForms.ClassesUteis.Conversores.Conversores">
+             x:Class="AppGallery.XamarinForms.ClassesUteis.Conversores.Conversores"
+             xmlns:converter="clr-namespace:AppGallery.XamarinForms.ClassesUteis.Conversores">
+    <ContentPage.Resources>
+        <converter:OpcionalConverter x:Key="OpcionalConverter"/>
+        <converter:ValorConverter x:Key="ValorConverter"/>
+        <converter:ZebraConverter x:Key="ZebraConverter"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Padding="10">
             <Label Text="Converter" />
@@ -10,11 +16,19 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Marca}"/>
-                                <Label Text="{Binding Modelo}"/>
-                                <Label Text="{Binding Opcionais}"/>
-                                <Label Text="{Binding Valor}"/>
+                            <StackLayout Padding="10" BackgroundColor="{Binding ., Converter={StaticResource ZebraConverter}}">
+                                <Label FontAttributes="Bold">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Marca}"/>
+                                            <Span Text=" - "/>
+                                            <Span Text="{Binding Modelo}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                
+                                <Label Text="{Binding Opcionais, Converter={StaticResource OpcionalConverter}}"/>
+                                <Label Text="{Binding Valor, Converter={StaticResource ValorConverter}}"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

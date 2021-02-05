@@ -85,6 +85,7 @@
                     <Label Text="Classes Uteís"/>
                     <Button Text="Alertas" Clicked="AbrirAlertas" />
                     <Button Text="Conversores" Clicked="AbrirConversores" />
+                    <Button Text="MessageCenter" Clicked="AbrirMessageCenterClass" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

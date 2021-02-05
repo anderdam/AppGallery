@@ -87,3 +87,5 @@ D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Ge
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\ClassesUteis\Alerta\Alerta.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\ClassesUteis\Conversores\Conversores.xaml.g.cs
 D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.csprojAssemblyReference.cache
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\ClassesUteis\MessageCenter\MessageCenterClass.xaml.g.cs
+D:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\ClassesUteis\MessageCenter\MessageCenterClass01.xaml.g.cs

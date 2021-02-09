@@ -86,6 +86,7 @@
                     <Button Text="Alertas" Clicked="AbrirAlertas" />
                     <Button Text="Conversores" Clicked="AbrirConversores" />
                     <Button Text="MessageCenter" Clicked="AbrirMessageCenterClass" />
+                    <Button Text="OnPlatformAndOnIdiom" Clicked="AbrirOnPlatformAndOnIdiom" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.ClassesUteis.OnPlatformAndOnIdiom.OnPlatformAndOnIdiom">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="OnPlatform / OnIdiom" />
+
+            <Label Text="{OnPlatform Android=SO: Android, iOS=iOS, UWP=Windows Platform}" 
+                   BackgroundColor="{OnPlatform Android=LightGray, iOS=LightBlue, UWP=Aliceblue}"
+                   Padding="20"
+                   Margin="10,0">
+                <Label.TextColor>
+                    <OnPlatform x:TypeArguments="Color">
+                        <On Platform="Android" Value="Green"/>
+                        <On Platform="iOS" Value="Gray"/>
+                        <On Platform="UWP" Value="Blue"/>
+                    </OnPlatform>
+                </Label.TextColor>                
+            </Label>
+
+            <Label Text="{OnIdiom Phone=Smartphone, Tablet=Tablet, Desktop=PC}">
+                <Label.BackgroundColor>
+                    <OnIdiom x:TypeArguments="Color" 
+                             Phone="LightGreen"
+                             Tablet="Azure"
+                             Desktop="Lavender"/>
+                </Label.BackgroundColor>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

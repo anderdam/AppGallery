@@ -10,6 +10,8 @@ namespace AppGallery.AppBase
         public Menu()
         {
             InitializeComponent();
+
+
         }
 
         private void AbrirContentPage(object sender, EventArgs e)
@@ -74,7 +76,7 @@ namespace AppGallery.AppBase
 
         private void AbrirFlexLayout(object sender, EventArgs e)
         {
-            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutRelativo.Relativo();
+            ((FlyoutPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.LayoutFlexivel.Flexivel();
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
 
@@ -380,6 +382,12 @@ namespace AppGallery.AppBase
         private void AbrirMessageCenterClass(object sender, EventArgs e)
         {
             ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.MessageCenter.MessageCenterClass());
+            ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirOnPlatformAndOnIdiom(object sender, EventArgs e)
+        {
+            ((FlyoutPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.ClassesUteis.OnPlatformAndOnIdiom.OnPlatformAndOnIdiom());
             ((FlyoutPage)Application.Current.MainPage).IsPresented = false;
         }
     }

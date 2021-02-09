@@ -77,6 +77,9 @@
     <EmbeddedResource Update="XamarinForms\ClassesUteis\MessageCenter\MessageCenterClass01.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\ClassesUteis\OnPlatformAndOnIdiom\OnPlatformAndOnIdiom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ActivityIndicatorControle\ActivityIndicatorControle.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

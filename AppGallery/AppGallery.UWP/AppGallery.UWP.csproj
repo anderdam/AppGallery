@@ -169,6 +169,10 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Imagens\logoclaro.scale-100.png" />
+    <Content Include="Imagens\logoclaro.scale-200.png" />
+    <Content Include="Imagens\logoescuro.scale-100.png" />
+    <Content Include="Imagens\logoescuro.scale-200.png" />
     <Content Include="logoXamarin16.png" />
     <Content Include="logoXamarin20.png" />
     <Content Include="logoXamarin24.png" />

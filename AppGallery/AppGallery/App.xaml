@@ -6,8 +6,20 @@
              mc:Ignorable="d"
              x:Class="AppGallery.App">
         <Application.Resources>
+            
+            <!-- Logomarca -->
 
-            <Color x:Key="TransparentColor">Transparent</Color>
+        <Style x:Key="Logomarca" TargetType="Image">
+            <Setter Property="Source">
+                <Setter.Value>
+                    <AppThemeBinding Light="{OnPlatform Android=logoclaro.png, iOS=logoclaro.png, UWP='Imagens/logoclaro.png'}" 
+                                     Dark="{OnPlatform Android=logoescuro.png, iOS=logoescuro.png, UWP='Imagens/logoescuro.png'}">
+                    </AppThemeBinding>                    
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Color x:Key="TransparentColor">Transparent</Color>
 
             <!-- Light colors -->
             <Color x:Key="LightPageBackgroundColor">White</Color>

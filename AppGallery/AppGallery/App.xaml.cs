@@ -13,7 +13,7 @@ namespace AppGallery
             MainPage = new AppBase.Menu();
         }
 
-        public List<PageCollection> PagesCollection
+        public static List<PageCollection> ItemMenuCollection
         { 
             get 
             {

@@ -643,3 +643,15 @@ D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\android\src\crc647
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\android\src\crc647c4c06b10f3352ff\MaterialSliderRenderer.java
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\android\src\crc647c4c06b10f3352ff\MaterialStepperRenderer.java
 D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\android\src\crc647c4c06b10f3352ff\MaterialTimePickerRenderer.java
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-hdpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-ldpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-mdpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xhdpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xxhdpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xxxhdpi\logoclaro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-hdpi\logoescuro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-ldpi\logoescuro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-mdpi\logoescuro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xhdpi\logoescuro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xxhdpi\logoescuro.png
+D:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\100\res\drawable-xxxhdpi\logoescuro.png

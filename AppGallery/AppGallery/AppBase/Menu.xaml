@@ -2,93 +2,35 @@
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppGallery.AppBase"
-             x:Class="AppGallery.AppBase.Menu">
+             x:Class="AppGallery.AppBase.Menu"
+            xmlns:viewmodel="clr-namespace:AppGallery.AppBase.ViewModels">
     <FlyoutPage.Flyout>
-        <ContentPage Title="Menu">
-            <ScrollView>
-                <StackLayout>
-                    <!--Tipos de Páginas-->
-                    <Label Text="Páginas" />
-                    <Button Text="ContentPage" Clicked="AbrirContentPage" />
-                    <Button Text="NavigationPage" Clicked="AbrirNavigationPage" />
-                    <Button Text="CarouselPage" Clicked="AbrirCarouselPage" />
-                    <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
-                    <Button Text="FlyoutPagePage" Clicked="AbrirFlyoutPage" />
-                    <Button Text="Modal" Clicked="AbrirPaginaModal" />
-                    <!--Tipos de Layouts-->
-                    <Label Text="Layouts" />
-                    <Button Text="StackLayout" Clicked="AbrirStackLayout" />
-                    <Button Text="GridLayout" Clicked="AbrirGridLayout" />
-                    <Button Text="AbsolutLayout" Clicked="AbrirAbsolutLayout" />
-                    <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout" />
-                    <Button Text="FlexLayout" Clicked="AbrirFlexLayout" />
-                    <Button Text="ScrollView" Clicked="AbrirScrollView" />
-                    <Button Text="ContentView" Clicked="AbrirContentView" />
-                    <Button Text="Frame" Clicked="AbrirFrame" />
-                    <!--Tipos de Controles-->
-                    <Label Text="Controles" />
-                    <Button Text="BoxView" Clicked="AbrirBoxView" />
-                    <Button Text="Label" Clicked="AbrirLabel" />
-                    <Button Text="Button" Clicked="AbrirBotao" />
-                    <Button Text="ImageButton" Clicked="AbrirImageButton" />                    
-                    <Button Text="ImageControl" Clicked="AbrirImageControl" />                    
-                    <Button Text="Entry" Clicked="AbrirEntry" />                    
-                    <Button Text="Editor" Clicked="AbrirEditor" />                    
-                    <Button Text="Checkbox" Clicked="AbrirCheckbox" />
-                    <Button Text="RadioButton" Clicked="AbrirRadioButton" />
-                    <Button Text="Switch" Clicked="AbrirSwitch" />
-                    <Button Text="Stepper" Clicked="AbrirStepper" />
-                    <Button Text="Slider" Clicked="AbrirSlider" />                    
-                    <Button Text="Picker" Clicked="AbrirPicker" />                    
-                    <Button Text="DatePicker" Clicked="AbrirDatePicker" />                    
-                    <Button Text="TimePicker" Clicked="AbrirTimePicker" />
-                    <Button Text="ActivityIndicator" Clicked="AbrirActivityIndicator" />
-                    <Button Text="ProgressBar" Clicked="AbrirProgressBar" />
-                    <Button Text="SearchBar" Clicked="AbrirSearchBar" />
-                    <Button Text="RefreshView" Clicked="AbrirRefreshView" />
-                    <Button Text="SwipeView" Clicked="AbrirSwipeView" />                    
-                    <Button Text="WebView" Clicked="AbrirWebView" />
-                    <Button Text="MediaElement" Clicked="AbrirMediaElement" />
-                    <Button Text="Expander" Clicked="AbrirExpander" />
-                    <!--<Button Text="VSM" Clicked="Abrir" />
-                    <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign" />-->
-
-                    <Label Text="Listas"/>
-                    <Button Text="TableView" Clicked="AbrirTableView" />
-                    <Button Text="ListView" Clicked="AbrirListView" />
-                    <Button Text="CollectionView" Clicked="AbrirCollectionView" />
-                    <Button Text="CarouselView" Clicked="AbrirCarouselView" />
-                    <Button Text="IndicatorView" Clicked="AbrirIndicatorView" />
-                    <Button Text="ObservableCollection" Clicked="AbrirObservableCollection" />
-                    <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged" />
-                    <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector" />
-
-                    <Label Text="Estilos"/>
-                    <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle" />
-                    <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle" />
-                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle" />
-                    <Button Text="InheritStyle" Clicked="AbrirInheritStyle" />
-                    <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle" />
-                    <Button Text="StyleClass" Clicked="AbrirStyleClass" />
-                    <Button Text="VSM" Clicked="AbrirVSM" />
-                    <Button Text="Material Design IO" Clicked="AbrirMaterialDesignIO" />
-                    <Button Text="Custom Fonts" Clicked="AbrirCustomFontsPage" />
-                    <Button Text="Change Theme" Clicked="AbrirChangeThemePage" />
-                    <Button Text="Dark/Light Theme" Clicked="AbrirDarkLightPage" />
-
-                    <Label Text="Animações"/>
-                    <Button Text="Animation" Clicked="AbrirSimpleAnimationPage" />
-
-                    <Label Text="Gestos"/>
-                    <Button Text="Gestos" Clicked="AbrirGestos" />
-                    
-                    <Label Text="Classes Uteís"/>
-                    <Button Text="Alertas" Clicked="AbrirAlertas" />
-                    <Button Text="Conversores" Clicked="AbrirConversores" />
-                    <Button Text="MessageCenter" Clicked="AbrirMessageCenterClass" />
-                    <Button Text="OnPlatformAndOnIdiom" Clicked="AbrirOnPlatformAndOnIdiom" />
-                </StackLayout>
-            </ScrollView>
+        <ContentPage Title="Menu" Style="{DynamicResource PageMenu}">
+            
+            <ContentPage.BindingContext>
+                <viewmodel:MenuViewModel />
+            </ContentPage.BindingContext>
+            <CollectionView ItemsSource="{Binding MenuItens}" x:Name="CollectionMenu" IsGrouped="True">
+                <CollectionView.Header>
+                    <StackLayout Padding="30">
+                        <Image Source="{DynamicResource Logomarca}"/>
+                        <Label HorizontalTextAlignment="Center" Text="Xamarin Forms &#x0a;Gallery"/>
+                    </StackLayout>
+                </CollectionView.Header>
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Name}" FontFamily="FiraCode-Bold" Padding="10" FontSize="16" TextColor="Crimson"/>
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="25,5,10,5">
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}" TextColor="LightGray"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>                
+            </CollectionView>            
         </ContentPage>
     </FlyoutPage.Flyout>
 
